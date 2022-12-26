@@ -1,0 +1,28 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-provisioning",
+  "name": "GoogleCloudVirtualMachines",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Google Cloud Virtual Machines",
+    "tagline": "Have charge of Google Cloud instances directly from your WHMCS system and carry out all key actions remotely.",
+    "short": "Have charge of Google Cloud instances directly from your WHMCS system and carry out all key actions remotely.",
+    "long": "Google Cloud Virtual Machines For WHMCS is a handy module developed to fulfill the demand for a tool allowing to fully automate the Google Cloud instances provisioning as well as their careful supervision without even leaving your website. Your customers will surely appreciate being able to preview and control the status of each obtained machine by quickly powering them on and off or rebooting whenever needed. On top of that, they will also receive the possibility to retrieve full set of information on a given VPS instance plus preview the assigned private and floating IP addresses. On the other hand, as an administrator you will be permitted to navigate each supervisory task straight in the admin area - control the status of every sold machine plus freely modify their details including the most suitable region or image. The module is an ideal solution for anyone who wants to feel the blessings of automation in the handling of Google Cloud servers directly in WHMCS."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https://www.modulesgarden.com/products/whmcs/google-cloud-virtual-machines",
+    "learn_more": "https://www.modulesgarden.com/products/whmcs/google-cloud-virtual-machines#features",
+    "support_url": "https://www.modulesgarden.com/support",
+    "docs_url": "https://www.docs.modulesgarden.com/Google_Cloud_Virtual_Machines_For_WHMCS"
+  },
+  "authors": [
+    {
+      "name": "ModulesGarden",
+      "homepage": "https://www.modulesgarden.com/"
+    }
+  ]
+}

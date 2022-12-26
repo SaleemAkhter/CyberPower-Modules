@@ -1,0 +1,5 @@
+- \ModulesGarden\Servers\VultrVps\Core\Lang\Lang
+- \ModulesGarden\Servers\VultrVps\Core\App\Controllers\Instances\Addon\Config
+- \ModulesGarden\Servers\VultrVps\Core\UI\Widget\Sidebar\SidebarService
+- \ModulesGarden\Servers\VultrVps\Core\Helper\WhmcsParams
+- \ModulesGarden\Servers\VultrVps\Core\App\AppParamsContainer

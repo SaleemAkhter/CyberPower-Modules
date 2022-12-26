@@ -1,0 +1,7 @@
+#layers .lu-modal {
+    display:  grid!important;
+}
+
+#layers .first-table-row tr:first-child td{
+    border-top: 0px !important;
+}

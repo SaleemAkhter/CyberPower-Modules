@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.kametera-box {
+  border: 1px solid #f0f0f0;
+  box-shadow: 2px 1px 4px rgb(223, 223, 223);
+  padding: 10px 0;
+  height: 102px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.kametera-box:hover {
+  z-index: 9999;
+  padding: 10px 0;
+  background-color: white;
+  border: 1px solid rgb(143, 143, 255);
+  transform: scale(1.1);
+  transition: 500ms;
+}

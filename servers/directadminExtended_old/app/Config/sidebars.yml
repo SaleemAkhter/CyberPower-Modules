@@ -1,0 +1,4 @@
+management: 
+     details:
+         href: 'index.php?m=DirectAdminExtended&mg-page=home&mg-action=detail'
+         order: 300

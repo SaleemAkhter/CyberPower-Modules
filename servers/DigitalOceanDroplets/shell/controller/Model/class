@@ -1,0 +1,39 @@
+<?php
+namespace #namespace#;
+
+#use#
+
+class #name# extends #abstractNamespace#
+{
+    public function response()
+    {
+        return Helper\response([
+            'tpl' => 'tempateName',
+            'data' => []
+        ]);
+    }
+
+    public function redirect()
+    {
+        return Helper\redirect(
+            '#name#',
+            'view', 
+            []
+    );
+
+    }
+
+    public function json()
+    {
+        return Helper\json([
+            'param1' => "Param 1",
+            'param2' => [1, 2, 3, 4, 5]
+        ]);
+
+    }
+
+    public function view()
+    {
+        return Helper\view();
+    }
+}

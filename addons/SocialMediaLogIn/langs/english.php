@@ -1,0 +1,129 @@
+<?php
+
+$_LANG['token']        = ', Error Token:';
+$_LANG['generalError'] = 'A problem with the module has occurred. Please contact the administrator.';
+
+$_LANG['addonAA']['datatables']['next']        = 'Next';
+$_LANG['addonAA']['datatables']['previous']    = 'Next';
+$_LANG['addonAA']['datatables']['zeroRecords'] = 'There is nothing to display.';
+
+$_LANG['addonAA']['pagesLabels']['label']['documentation'] = 'Documentation';
+$_LANG['addonAA']['pagesLabels']['label']['dashboard']     = 'Dashboard';
+$_LANG['addonAA']['pagesLabels']['label']['integration']   = 'Integration Code';
+$_LANG['fill_data']                                        = 'Please fill in your details below:';
+$_LANG['please_fill_data_before_order']                    = 'Please fill in your details first to continue the order:';
+
+$_LANG['addonAA']['integration']['The integration described below is required to display login with social media buttons in the selected client area pages.'] = 'The integration described below is required to display login with social media buttons on the selected client area pages.';
+$_LANG['addonAA']['integration']['Login Page']                                                                                                                = 'Login Page';
+$_LANG['addonAA']['integration']['In order to enable social buttons on login page, open the file']                                                            = 'In order to enable social media login buttons on the login page, please open the file:';
+$_LANG['addonAA']['integration']['Find the following lines']                                                                                                  = 'Find the following lines:';
+$_LANG['addonAA']['integration']['Find the following line']                                                                                                   = 'Find the following line';
+$_LANG['addonAA']['integration']['Add this code Before the last div element']                                                                                 = 'Add this code underneath the last element:';
+$_LANG['addonAA']['integration']['Login Popup']                                                                                                               = 'Login Pop-up';
+$_LANG['addonAA']['integration']['In order to enable social buttons on login popup(header menu), open the file']                                              = 'In order to enable social media login buttons on the login pop-up (header menu), please open the file:';
+$_LANG['addonAA']['integration']['Add this code above that line:']                                                                                            = 'Add this code above that line:';
+$_LANG['addonAA']['integration']['Checkout Page']                                                                                                             = 'Checkout Page';
+$_LANG['addonAA']['integration']['In order to enable social buttons on checkout page, open the file']                                                         = 'In order to enable social media login buttons on the checkout page, open the file:';
+$_LANG['addonAA']['integration']['Add this code above those lines:']                                                                                          = 'Add this code above those lines:';
+
+$_LANG['addonAA']['logs']['header']['Logs']                                              = 'Logs';
+$_LANG['addonAA']['logs']['tableHeader']['ID']                                           = 'ID';
+$_LANG['addonAA']['logs']['tableHeader']['Message']                                      = 'Message';
+$_LANG['addonAA']['logs']['tableHeader']['Date']                                         = 'Date';
+$_LANG['addonAA']['logs']['tableHeader']['Action']                                       = 'Action';
+$_LANG['addonAA']['logs']['button']['Delete All Entries']                                = 'Delete All Entries';
+$_LANG['addonAA']['logs']['modal']['Delete All Entries']                                 = 'Delete All Entries';
+$_LANG['addonAA']['logs']['Are you sure you want to delete all entries from logs list?'] = 'Are you sure that you want to delete all entries from the logs list?';
+$_LANG['addonAA']['logs']['modal']['delete']                                             = 'Delete';
+$_LANG['addonAA']['logs']['modal']['close']                                              = 'Close';
+$_LANG['addonAA']['logs']['modal']['Delete Log']                                         = 'Delete Log';
+$_LANG['addonAA']['logs']['Are you sure you want to delete this entry from logs list?']  = 'Are you sure that you want to delete this entry from the logs list?';
+$_LANG['addonAA']['logs']['Nothing to display']                                          = 'There is nothing to display yet.';
+$_LANG['addonAA']['logs']['search']                                                      = 'Search';
+$_LANG['addonAA']['logs']['previous']                                                    = 'Previous';
+$_LANG['addonAA']['logs']['next']                                                        = 'Next';
+$_LANG['addonAA']['pagesLabels']['label']['logs']                                        = 'Logs';
+$_LANG['addonAA']['logs']['actionButtons']['delete']                                     = 'Delete';
+$_LANG['addonAA']['logs']['Log %s has been deleted']                                     = 'Log %s has been deleted successfully';
+$_LANG['addonAA']['logs']['Logs have been deleted']                                      = 'Logs have been deleted successfully';
+$_LANG['addonAA']['dashboard']['ErrorLog']                                               = 'Last Logs';
+$_LANG['addonAA']['dashboard']['table']['empty']                                         = 'There is nothing to display yet';
+$_LANG['addonAA']['dashboard']['TableTitleTimeChart']                                    = 'Number Of Accounts Over Time';
+$_LANG['addonAA']['dashboard']['NumberOfAccounts']                                       = 'Number Of Accounts';
+$_LANG['addonAA']['dashboard']['TableTitleAccountsChart']                                = 'Accounts In Total';
+$_LANG['addonAA']['dashboard']['InfoHead']                                               = 'For each 3rd party platform, a provider\'s application needs to be configured in order to create a user account automatically and log in with it.';
+$_LANG['addonAA']['dashboard']['Info1']                                                  = "Proceed to <b>'Settings' → 'Providers'</b> section and <b>press the edit button</b> next to the 3rd party platform you wish to use.";
+$_LANG['addonAA']['dashboard']['Info2']                                                  = "Follow the steps listed in the pop-up to provide the application with its <b>ID</b> and <b>Secret Key</b>, afterwards type them in.";
+$_LANG['addonAA']['dashboard']['Info3']                                                  = "Only correctly configured provider can be enabled, <b>press power button</b> to do so.";
+$_LANG['addonAA']['dashboard']['Info4']                                                  = "Repeat the steps to enable every provider you wish to use.";
+$_LANG['addonAA']['dashboard']['Info5']                                                  = "Next, go to <b>'Settings' → 'General'</b> and define the <b>order</b> and <b>colors</b> of provider's login buttons or alternatively load your own <b>set of icons</b>.";
+$_LANG['addonAA']['dashboard']['Info6']                                                  = "In the last step, integrate the module with your templates, instructions can be found under <b>'Integration Code'</b> section.";
+
+$_LANG['addonAA']['pagesLabels']['label']['settings']     = 'Settings';
+$_LANG['addonAA']['pagesLabels']['settings']['general']   = 'General';
+$_LANG['addonAA']['pagesLabels']['settings']['providers'] = 'Providers';
+
+$_LANG['addonAA']['settings']['table_header']['provider']  = 'Provider';
+$_LANG['addonAA']['settings']['table_header']['status']    = 'Status';
+$_LANG['addonAA']['settings']['table_header']['configure'] = 'Configure';
+
+$_LANG['addonAA']['settings']['table']['empty']                   = 'Empty';
+$_LANG['addonAA']['settings']['button']['configuration']          = 'Configuration';
+$_LANG['addonAA']['settings']['close']                            = 'Close';
+$_LANG['addonAA']['settings']['add']                              = 'Add';
+$_LANG['addonAA']['settings']['save_changes']                     = 'Save Changes';
+$_LANG['addonAA']['settings']['Configuration']                    = 'Configuration';
+$_LANG['addonAA']['settings']['appId']                            = 'Application ID';
+$_LANG['addonAA']['settings']['appSecret']                        = 'Application Secret';
+$_LANG['addonAA']['settings']['infos']['changes_saved']           = 'The changes have been saved successfully';
+$_LANG['addonAA']['settings']['infos']['provider_disabled']       = 'The provider has been disabled successfully';
+$_LANG['addonAA']['settings']['infos']['provider_enabled']        = 'The provider has been enabled successfully';
+$_LANG['addonAA']['settings']['errors']['provider_not_cofigured'] = 'The provider configuration has not been completed yet.';
+$_LANG['addonAA']['settings']['Icon Sets']                        = 'Icons';
+$_LANG['addonAA']['settings']['Display name']                     = 'Display Name';
+$_LANG['addonAA']['settings']['Current sets of icon']             = 'Current Sets Of Icons: ';
+$_LANG['addonAA']['settings']['Select icon sets']                 = 'Icons Set: ';
+$_LANG['addonAA']['settings']['Save changes']                     = 'Save Changes';
+$_LANG['addonAA']['settings']['Select mini icon sets']            = 'Mini Icons Set:';
+$_LANG['addonAA']['settings']['Default colors']                   = 'Default Colors';
+$_LANG['addonAA']['settings']['Select color of buttons']          = 'Buttons\' Color:';
+$_LANG['addonAA']['settings']['Select color on hover']            = 'On Hover Color:';
+$_LANG['addonAA']['settings']['Select color of icons']            = 'Icons And Providers\' Names Color:';
+$_LANG['addonAA']['settings']['Providers settings']               = 'Providers Settings';
+$_LANG['addonAA']['settings']['Active provider']                  = 'Active Provider';
+$_LANG['addonAA']['settings']['Icon color']                       = 'Icon And Text Color';
+$_LANG['addonAA']['settings']['Use default']                      = 'Restore Default Settings';
+$_LANG['addonAA']['settings']['Button color']                     = 'Button Color';
+$_LANG['addonAA']['settings']['Button color on hover']            = 'Button Color On Hover';
+$_LANG['addonAA']['settings']['Nothing to display']               = 'There is nothing to display yet';
+$_LANG['addonAA']['settings']['Save changes successfully']        = 'Your changes have been saved successfully';
+$_LANG['addonAA']['settings']['defaultSettingConfirm']            = 'Are you sure that you want to restore default settings for colors and display name?';
+
+
+$_LANG['addonAA']['settings']['Microsoft'] = 'Microsoft';
+$_LANG['addonAA']['settings']['Instagram'] = 'Instagram';
+$_LANG['addonAA']['settings']['Paypal']    = 'Paypal';
+$_LANG['addonAA']['settings']['Twitter']   = 'Twitter';
+$_LANG['addonAA']['settings']['Tumblr']    = 'Tumblr';
+$_LANG['addonAA']['settings']['Twitch']    = 'Twitch';
+$_LANG['addonAA']['settings']['Yahoo']     = 'Yahoo';
+$_LANG['addonAA']['settings']['Dropbox']   = 'Dropbox';
+$_LANG['addonAA']['settings']['WordPress'] = 'WordPress';
+$_LANG['addonAA']['settings']['LinkedIn']  = 'LinkedIn';
+$_LANG['addonAA']['settings']['Reddit']    = 'Reddit';
+$_LANG['addonAA']['settings']['Facebook']  = 'Facebook';
+$_LANG['addonAA']['settings']['Amazon']    = 'Amazon';
+$_LANG['addonAA']['settings']['Google']    = 'Google';
+$_LANG['addonAA']['settings']['GitHub']    = 'GitHub';
+$_LANG['addonAA']['settings']['Pinterest'] = 'Pinterest';
+$_LANG['addonAA']['settings']['Stripe']    = 'Stripe';
+$_LANG['addonAA']['settings']['Disqus']    = 'Disqus';
+$_LANG['addonAA']['settings']['Vimeo']     = 'Vimeo';
+$_LANG['addonAA']['settings']['VK']        = 'VK';
+
+$_LANG['Connect with existing account']                                                                                                                                                                      = 'Connect With My Account';
+$_LANG['Register a new account']                                                                                                                                                                             = 'Register New Account';
+$_LANG['If you have an account already you can link it with your']                                                                                                                                           = 'If you already have an account, you can link it with your';
+$_LANG['If not You can create new one.']                                                                                                                                                                     = 'If not, create a new one';
+$_LANG[' do not share email address.']                                                                                                                                                                       = ' do not share the email address. Please enter your email address.';
+$_LANG['The given e-mail address already exists in the system. Please enter a different address or link your account with an existing e-mail address (sign in again and select "connect with my account").'] = 'The given e-mail address already exists in the system. Please enter a different address or link your account with the existing e-mail address (sign in again and select "connect with my account").';

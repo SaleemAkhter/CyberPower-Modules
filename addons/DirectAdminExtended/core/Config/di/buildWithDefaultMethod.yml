@@ -1,0 +1,6 @@
+class:
+    - {name: "\\ModulesGarden\\DirectAdminExtended\\Core\\Http\\Request", method: "build",                        args: []}
+    - {name: '\\ModulesGarden\\DirectAdminExtended\\Core\\Http\\View\\Smarty',  method: "get",                    args: [NULL,NULL]}
+    - {name: '\\ModulesGarden\\DirectAdminExtended\\Core\\HandlerError\\Logger',  method: "get",                  args: ["default","debug.log","warning.log","error.log"]}
+    - {name: '\\ModulesGarden\\DirectAdminExtended\\Core\\Cache\\CacheManager',  method: "cache",                 args: []}
+    - {name: '\\ModulesGarden\\DirectAdminExtended\\Core\\RegisterManager\\Register',  method: "getInstace",      args: []}

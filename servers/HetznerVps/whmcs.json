@@ -1,0 +1,29 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-provisioning",
+  "name": "HetznerVps",
+  "version": "",
+  "license": "proprietary",
+  "category": "vpscloud",
+  "description": {
+    "name": "Hetzner VPS",
+    "tagline": "Introduce automation of provisioning as well as all routine tasks in the management of Hetzner virtual machines.",
+    "long": "Hetzner VPS For WHMCS is a module cleverly designed to automate the provisioning as well as all routine tasks in the management of Hetzner virtual machines. Having a free choice from a range of configurable options, your clients will easily order servers suited to their personal preferences.\nLeaving your WHMCS will no longer be necessary for your customers to control the status of each obtained machine, rebuild it with a distribution of a selected operating system, or even access the remote console. On top of that, they will not only receive the possibility to create and restore snapshots of owned machines but will be also granted the option to choose among Hetzner ISO images to be mounted on their devices. At the same time, it is with no hassle at all that you will decide on available product features, and pick the exact tools that your client area shall be equipped with.",
+    "features": []
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "marketplace": {
+    "url": "https://marketplace.whmcs.com/product/4911"
+  },
+  "support": {
+    "docs_url": "https://www.docs.modulesgarden.com/Hetzner_VPS_For_WHMCS"
+  },
+  "authors": [
+    {
+      "name": "ModulesGarden",
+      "homepage": "https:\/\/www.modulesgarden.com\/"
+    }
+  ]
+}

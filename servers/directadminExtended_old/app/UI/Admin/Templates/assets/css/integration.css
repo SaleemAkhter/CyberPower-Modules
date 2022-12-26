@@ -1,0 +1,50 @@
+#contentarea > div > h1 {
+    display: block!important;
+}
+
+#contentarea {
+    margin: 10px;
+    padding: 15px;
+    min-height: 600px;
+    background-color: #fff;
+    border: 4px solid #e2e7e9;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.mg-integration-container .lu-app {
+    height: 0px;
+    visibility: hidden;
+}
+
+#layers .lu-app {
+    background-color: #efefef;
+}
+
+#layers .lu-app-main__body {
+    padding: 0px;
+    margin-bottom: -15px;
+}
+
+#tblModuleSettings {
+    background-color: #efefef;
+}
+
+#layers .configOption {
+    border-bottom: 1px solid #edeff2;
+    padding: 10px;
+    height: auto;
+}
+
+
+#layers .configOptionButton {
+    padding: 16px 0px 15px 0px;
+}
+
+#layers .configOptionBox {
+    padding: 0px 15px 15px 15px !important;
+
+}

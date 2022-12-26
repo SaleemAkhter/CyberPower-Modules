@@ -1,0 +1,31 @@
+<div class="lu-row lu-row-widget">
+    <div class="lu-widget tabsWidget">
+        {if $rawObject->isRawTitle() || $rawObject->getTitle()}
+            <div class="lu-widget__header">
+                <div class="lu-widget__nav lu-swiper-container lu-swiper-container-horizontal lu-swiper-container-false" data-content-slider="" style="visibility: visible;">
+                    {assign var="firstArrKey" value=$rawObject->getElements()|array_keys}
+                    {if $elements}
+                        <ul class="lu-nav lu-nav--md lu-nav--h lu-nav--tabs lu-nav--arrow">
+                            {foreach from=$rawObject->getElements() key=tplKey item=tplValue}
+                                <li {if $tplKey  === $firstArrKey[0]} class="lu-nav__item is-active" {else} class="lu-nav__item" {/if}>
+                                    <a class="lu-nav__link"  data-toggle="lu-tab" href="#contTab{$tplValue->getId()}">
+                                        <span class="lu-nav__link-text"> {if $tplValue->isRawTitle()}{$tplValue->getRawTitle()}{elseif $tplValue->getTitle()}{$MGLANG->T($tplValue->getTitle())}{/if}</span>
+                                    </a>
+                                </li>
+                            {/foreach}
+                        </ul>
+                    {/if}
+                </div>
+            </div>
+        {/if}
+        <div class="lu-widget__body">
+            <div class="lu-tab-content">
+                {foreach from=$rawObject->getElements() key=tplKey item=tplValue}
+                    <div id="contTab{$tplValue->getId()}" class="lu-tab-pane {if $tplKey === $firstArrKey[0]} is-active {/if}">
+                        {$tplValue->getHtml()}
+                    </div>
+                {/foreach}
+            </div>
+        </div>
+    </div>
+</div>

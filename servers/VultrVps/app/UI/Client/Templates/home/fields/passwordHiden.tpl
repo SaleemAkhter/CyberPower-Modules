@@ -1,0 +1,1 @@
+<span class="password_element"><input class="elementPasswordInput" type="password" value="{$rawObject->getValue()}" readonly><i class="elementPasswordIcon lu-zmdi lu-zmdi-eye-off" onclick="changePasswordElement()"></i></span>

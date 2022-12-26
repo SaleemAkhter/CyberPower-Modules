@@ -1,0 +1,1 @@
+ALTER TABLE `#prefix#billing_service_replacements` CHANGE service_id pricing_group_id int(10);

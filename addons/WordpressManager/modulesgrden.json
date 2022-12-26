@@ -1,0 +1,26 @@
+{
+  "database":{
+    "tables":[
+        "WordpressManager_Commands",
+        "WordpressManager_CustomPlugin",
+        "WordpressManager_CustomTheme",
+        "WordpressManager_Installations",
+        "WordpressManager_InstanceImage",
+        "WordpressManager_Job",
+        "WordpressManager_JobLog",
+        "WordpressManager_Logger",
+        "WordpressManager_ModuleSettings",
+        "WordpressManager_PluginPackage",
+        "WordpressManager_PluginPackageItem",
+        "WordpressManager_PluginsBlocked",
+        "WordpressManager_ProductSettings",
+        "WordpressManager_ThemePackage",
+        "WordpressManager_ThemePackageItem",
+        "WordpressManager_ThemesBlocked",
+        "WordpressManager_UpdateMails"
+  
+
+    ]
+
+  }
+}

@@ -1,0 +1,5 @@
+- \ModulesGarden\DirectAdminExtended\Core\Lang\Lang
+- \ModulesGarden\DirectAdminExtended\Core\App\Controllers\Instances\Addon\Config
+- \ModulesGarden\DirectAdminExtended\Core\UI\Widget\Sidebar\SidebarService
+- \ModulesGarden\DirectAdminExtended\Core\Helper\WhmcsParams
+- \ModulesGarden\DirectAdminExtended\Core\App\AppParamsContainer

@@ -1,0 +1,9 @@
+debug: false
+version: '1.7.0'
+systemName: 'DigitalOceanDroplets'
+name: 'DigitalOceanDroplets'
+description: 'Modules Garden Module Framework.<br>For more info visit our <a href="http://www.docs.modulesgarden.com/CHANGE_ME" style="color: #4169E1;" target="_blank">Wiki</a>.'
+clientareaName: 'DigitalOceanDroplets'
+author: '<a href="http://www.modulesgarden.com" targer="_blank">ModulesGarden</a>'
+fields: []
+moduleIcon: ''

@@ -1,0 +1,181 @@
+/**********************************************************************/
+#tooltip {
+    position: absolute;
+    width: 280px;
+    height: auto;
+    padding: 5px;
+    background-color: #edeaea;
+    border : 5px solid #f6540d;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -mox-box-shadow: 4px 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4) pointer-events: none;
+}
+#tooltip.hidden {
+    opacity: 0;
+}
+#tooltip p {
+    color: #f6540d;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 5px;
+}
+/******************************************************************************/
+/* View CloudFlare Data */
+.darkgrey_text {
+    color: #04374E;
+}
+
+.lightgrey_text {
+    color: #736D79;
+}
+
+.green_text {
+    color: #2CC185;
+}
+
+.blue_text{
+    color: #02B3E7;
+}
+
+.pink_text{
+    color: #ef4f91;
+}
+
+.red_text{
+    color: #EB0D42;
+}
+
+.bottomline_cf{
+    border-bottom: 1px solid #e7ecea;
+}
+.orange_text{
+    color: #f6540d;
+}
+
+.divright_cf{
+    float: right;
+    width: 45%;
+    text-align: left;
+    padding: 15px;
+    line-height: 38px;
+}
+
+.pie-chart{
+    float: left;
+}
+// ** -------------------- ** //
+
+// ** Colr Scales ** //
+.color-scale{
+    float: left;
+    margin: 8px 0px 0 30px;
+}
+
+.color-scale1{
+    fill:#02B3E7;
+    stroke-width:3;
+    stroke:#02B3E7;
+}
+
+.color-scale2{
+    fill:#FFEC62;
+    stroke-width:3;
+    stroke:#FFEC62;
+}
+
+.color-scale3{
+    fill:#EB0D42;
+    stroke-width:3;
+    stroke:#EB0D42;
+}
+
+.loader{
+    display:none;
+    padding: 4px;
+}
+.loader img{
+    padding: 7px;
+}
+
+.errorbox{
+    background-color: #FBEEEB;
+    /*border: 1px dashed #CC0000;*/
+    border-radius: 6px;
+    color: #CC0000;
+    display: none;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 18px;
+    /*width: 100%;*/
+}
+
+
+.div-main-cf{
+    width: 100%;
+    border-bottom: 1px solid #e7ecea;
+    padding: 8px;
+    float:left;
+}
+
+.div-sub-cf{
+    float: left;
+    width: 50%;
+}
+
+/* ---------------------------------------------------------------- */
+.cloudflare-table{
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    width: 100%;
+}
+.cloudflare-table tr th{
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+.cloudflare-table tr td{
+    border: 1px solid #dddddd;
+    padding: 8px;
+    font-size: 14px;
+}
+.textboxh{
+    height: 28px;
+}
+.edit-pane{
+    font-size: 14px;
+    color: #f6540d;
+}
+.srv-label{
+    background-color: #0768B8;
+    padding: 6px;
+    font-size: 12px;
+    float: left;
+}
+.button-inline{
+    float: left;
+    cursor: pointer;
+}
+
+
+
+.active-cloud {
+    background-image: url("../../images/icon-cloud-on.png") ;
+    background-repeat: no-repeat;
+    width:55px;
+    height:32px;
+}
+.inactive-cloud{
+    background-image: url("../../images/icon-cloud-bypass.png") ;
+    background-repeat: no-repeat;
+    width:55px;
+    height:32px;
+}
+
+

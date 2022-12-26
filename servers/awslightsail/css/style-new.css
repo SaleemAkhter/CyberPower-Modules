@@ -1,0 +1,1101 @@
+ .modal-header .close {
+    margin-top: -20px;
+}
+
+ /* Rule table*/
+i#edit-rule {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #72b5c6;
+}
+
+i#del-rule {
+    color: #fe4e5b;
+    font-size: 16px;
+}
+
+#txt-tg{
+ text-align: left;
+
+}
+.update-ip-checkbox{
+    float: left;
+    padding: 0px 18px;
+}
+
+div#resticip-update-div {
+    float: left;
+    padding:0px;
+}
+
+a#addanotherip-updt {
+    float: left;
+    margin: 10px 18px;
+    color: #DD6B10;
+    cursor: pointer;
+}
+.remove-ipbtn-updt{
+    text-align: left;
+}
+.remove-ipbtn-updt i{
+    color: #DD6B10;
+    text-align: left;
+    font-size: 23px;
+    cursor: pointer;
+    font-weight: 300;
+    /* padding: 5px; */
+    padding-top: 5px;
+}
+
+#rule-firewal .firewall-pointer-event{
+    pointer-events: none;
+    background-color: #EEE;
+}
+
+#updtrule-firewal .firewall-pointer-event{
+    pointer-events: none;
+    background-color: #EEE;
+}
+table#firewal-rl-list thead tr th {
+    text-align: left;
+}
+table#firewal-rl-list tbody tr td {
+    text-align: left;
+}
+div#resticip-update-div p {
+   
+    line-height: 22px;
+}
+div#resticip-update-div label {
+     margin-top: 10px;
+}
+
+/*snapshot*/
+i#take-snp-ldr {
+    position: inherit;
+    margin: 6px 0px 0px 1px;
+}
+.snapshots-wrapper .table-responsive {
+    overflow-x: unset;
+}
+.logs-wrapper .table-responsive {
+    overflow-x: unset;
+}
+
+/********hostx******/
+.container-hostx-body div#connectiondetailmodal .modal-header, .container-hostx-body div#updaterulemodal .modal-header , .container-hostx-body div#connectiondetailmodal .modal-body, .container-hostx-body div#updaterulemodal .modal-body , .container-hostx-body div#connectiondetailmodal .modal-footer, .container-hostx-body div#addrulemodal .modal-header, .container-hostx-body div#addrulemodal .modal-body, .container-hostx-body div#addrulemodal .modal-footer, .container-hostx-body div#updaterulemodal .modal-footer{
+padding: 15px !important;
+}
+.container-hostx-body div#connectiondetailmodal .form-control, .container-hostx-body div#addrulemodal .form-control, .container-hostx-body div#updaterulemodal .form-control{
+font-size: 13px;
+color: #555;
+}
+.container-hostx-body div#addrulemodal, .container-hostx-body div#updaterulemodal{
+padding: 0 !important;
+}
+.container-hostx-body div#addrulemodal .modal-dialog, .container-hostx-body div#connectiondetailmodal .modal-dialog, .container-hostx-body div#updaterulemodal .modal-dialog{
+margin-left: auto;
+margin-right: auto;
+left:0;
+}
+.container-hostx-body div#connectiondetailmodal button.btn.btn-secondary, .container-hostx-body div#connectiondetailmodal .modal-footer .btn, .container-hostx-body div#updaterulemodal .modal-footer .btn, .container-hostx-body div#addrulemodal .modal-footer .btn{
+padding: 4px 20px;
+}
+.container-hostx-body div#connectiondetailmodal h4#myModalLabel {
+font-size: 18px;
+font-weight: 600;
+}
+.container-hostx-body #updtrule-firewal .update-ip-checkbox input, .container-hostx-body div#addrulemodal .fr-ip-checkbox input {
+width: 20px;
+}
+.container-hostx-body div#updaterulemodal .update-ip-checkbox {
+display: flex;
+width: 100%;
+}
+.container-hostx-body div#addrulemodal .form-group{
+text-align: left;
+}
+
+.container-hostx-body .rescue-container-right .rescue-container-inner ul#disk-ul h5 {
+font-size: 15px;
+margin-bottom: 10px;
+}
+.container-hostx-body div#connectiondetailmodal textarea.form-control{
+height: 150px;
+}
+.container-hostx-body div#connectiondetailmodal .form-control {
+height: 35px;
+}
+.container-hostx-body div#connectiondetailmodal .modal-dialog {
+max-width: 600px;
+position: relative;
+height: 100%;
+width: 100%;
+top: 0;
+bottom: 0;
+left: 0;
+transform: unset;
+right: 0;
+margin-top: 0;
+}
+.container-hostx-body div#connectiondetailmodal .form-group {
+margin-bottom: 20px;
+}
+.container-hostx-body div#connectiondetailmodal{
+padding-right: 0 !important;
+}
+.container-hostx-body div#connectiondetailmodal .modal-dialog .modal-content {
+top: 20px;
+}
+.container-hostx-body div#addrulemodal .form-control, .container-hostx-body div#updaterulemodal .form-control {
+height: 35px;
+}
+.container-hostx-body div#addrulemodal .fr-ip-checkbox, .container-hostx-body div#updaterulemodal .update-ip-checkbox{
+margin-bottom: 10px;
+}
+.container-hostx-body div#addrulemodal div#ip-restrict, .container-hostx-body div#updaterulemodal div#resticip-update-div p, .container-hostx-body #addrulemodal div#resticip-div p, .container-hostx-body div#updaterulemodal div#resticip-update-div label{
+text-align: left;
+line-height: 24px;
+}
+.container-hostx-body div#addrulemodal div#resticip-div label, .container-hostx-body div#updaterulemodal div#resticip-update-div label {
+padding-bottom: 10px;
+}
+.container-hostx-body div#updaterulemodal div#resticip-update-div,.container-hostx-body div#addrulemodal div#resticip-div, .container-hostx-body div#addrulemodal .fr-ip-checkbox, .container-hostx-body div#updaterulemodal .update-ip-checkbox {
+padding: 0px 0px;
+}
+.container-hostx-body div#addrulemodal .fr-ip-checkbox {
+width: 100%;
+text-align: left;
+}
+div#updaterulemodal a#addanotherip-updt, div#addrulemodal #addanotherip, .container-hostx-body .bandwidth-snapshop-wrapper{
+margin: 0;
+}
+body .container-hostx-body #connectiondetailmodal .modal-header .close, .container-hostx-body div#addrulemodal .modal-header .close, .container-hostx-body div#updaterulemodal .modal-header .close{
+margin-top: -44px;
+font-size: 30px;
+color: #A6A6A6;
+font-weight: 400;
+opacity: 1;
+}
+.container-hostx-body #connectiondetailmodal .modal-header .close span, .container-hostx-body div#addrulemodal .modal-header .close span, .container-hostx-body div#updaterulemodal .modal-header .close span{
+display: block;
+}
+
+
+/******clientx*****/
+.customContainer div#connectiondetailmodal .form-group {
+margin-bottom: 22px;
+}
+.customContainer div#connectiondetailmodal .form-group input {
+margin-bottom: 5px;
+}
+
+@media(min-width: 1141px){
+.customContainer div#updaterulemodal .modal-content,
+ .customContainer div#connectiondetailmodal .modal-content, .customContainer div#addrulemodal .modal-content{
+top: 55px;
+}
+}
+@media(min-width: 768px) and (max-width: 1140px){
+.customContainer div#updaterulemodal .modal-content, .customContainer div#connectiondetailmodal .modal-content,
+ .customContainer div#addrulemodal .modal-content{
+top: 72px;
+}
+}
+@media(max-width: 767px){
+.customContainer div#updaterulemodal .modal-content, .customContainer div#connectiondetailmodal .modal-content,
+ .customContainer div#addrulemodal .modal-content{
+top: 142px;
+}
+}
+
+/* server page css start */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0rem;
+}
+ul.graphs-tabs a.active{
+    background-color: #337ab7;
+    color: #fff;
+    padding: 5px;
+    border-radius: 2px;
+    border-color: #058;
+}
+.server-satus-wrapper {
+    float: left;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 60px;
+    text-align: left;
+}
+.server-satus-running,.graphs-wrapper,.logs-wrapper,.snapshots-wrapper,.ip-wrapper  {
+    float: left;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.11);
+    background-color: #fefefe;
+    margin-top: 30px;
+}
+section.linode-contant {
+    margin: 0;
+}
+.linode-contant .server-satus-running {
+    margin-top: 0;
+}
+
+.server-satus-title,.wandwidth-title {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #f0f4f6;
+    padding: 20px 30px;
+}
+
+.server-satus-title h3,.wandwidth-title h3,.graphs-wrapper h3{
+    color:#3f3636;
+    font-weight:700;
+    font-size:15px;
+    text-transform:uppercase;
+    float: left;
+    margin-bottom:0px;
+    margin-top: 2px;
+}
+.server-satus-title h5 {
+    font-size: 18px;
+    color: #6ebe44;
+    float: right;
+    font-weight:700;
+}
+.server-satus-inner-box {
+    float: left;
+    width: 100%;
+    padding: 30px;
+}
+.server-satus-cantos {
+    float: left;
+    width: 180px;
+}
+.button-box {
+  /*  float: left; */
+    width: 100%;
+    margin-top: 34px;
+}
+ul.server-top-ul li {
+    display: inline-block;
+}
+ul.server-top-ul li {
+    display: inline-block;
+    color: #8e8e98;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 24px;
+}
+.linode-contant ul.server-top-ul li {
+    padding-right: 22px;
+}
+
+.linode-contant ul.server-top-ul li:last-child {
+    padding-right: 0;
+}
+ul.server-top-ul li:last-child {
+    padding-right: 0px;
+}
+.server-top-ul li span b {
+    font-size: 14px;
+    color: #3f3636;
+    margin-left: 9px;
+}
+.server-top-ul li span {
+    margin-left: 9px;
+}
+ul.server-top-ul li object {
+    vertical-align: inherit;
+    position: relative;
+    top: 1px;
+}
+ul.server-bottom-ul li i.fa.fa-cloud-upload {
+    background: #def2eb;
+    color: #36b883;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 11px;
+}
+ul.server-bottom-ul li i.fa.fa-cloud-download {
+    background: #ffeff0;
+    color: #c896a5;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 11px;
+}
+ul.server-bottom-ul li span {
+    color: #3f3636;
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+    top: 13px;
+    margin: 0px 10px;
+}
+ul.server-bottom-ul li sub {
+    font-size: 18px;
+    color: #b1b1b1;
+    font-weight: 600;
+    left: -4px;
+}
+ul.server-bottom-ul li {
+    display: inline-block;
+    padding: 0px 50px 0px 0px;
+    position:relative;
+}
+ul.server-bottom-ul li:last-child {
+    padding: 0px 0px 0px 0px;
+}
+ul.server-bottom-ul li:last-child::before {
+    position: absolute;
+    content: "";
+    left: -30px;
+    height: 68px;
+    background: #f1f1f1;
+    width: 1px;
+    top: 17px;
+}
+.server-satus-cantos p {
+    font-size: 13px;
+    color: #2a76c1;
+    text-decoration: underline;
+    margin-left: 43px;
+    margin-top: 6px;
+}
+.button-box .btn-style {
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 0px;
+    height: 40px;
+   padding: 0px 14px;
+    margin-right:6px;
+    font-weight:600;
+}
+.button-box i {
+    font-size: 18px;
+    margin-right: 6px;
+    color:#fff;
+}
+ul.server-top-ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.btn-color-1{background-color: #72b5c6;}
+.btn-color-2{background-color: #fe4e5b;}
+.btn-color-3{background-color: #36b883;}
+.btn-color-4{background-color: #8a94c7;}
+.bandwidth-snapshop-wrapper,.server-details-wrapper{float:left;width:100%;}
+.wandwidth-container,.snapshot-container-right,.server-details-container,.rescue-container-right {
+    float: left;
+    width: 48.5%;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.11);
+    background-color: #fefefe;
+    margin-top: 25px;
+}
+.m-r3{margin-right:3%;}
+.wandwidth-container-inner,.snapshot-container-inner,.server-details-inner,.rescue-container-inner {
+    float: left;
+    width: 100%;
+    padding: 26px;
+    text-align: center;
+}
+.wandwidth-container-inner h4 {
+    color: #3f3636;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0px 10px;
+}
+.wandwidth-container-inner h4 img {
+    margin-right: 10px;
+    vertical-align: initial;
+}
+.wandwidth-container-inner p {
+    font-size: 13px;
+    color: #2a76c1;
+    text-decoration: underline;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+button.snapshot-btn {
+    min-width: 106px;
+    height: 28px;
+    border-radius: 3px;
+    background-color: #ffdcde;
+    border: none;
+    color: #be6269;
+    font-size: 12px;
+    font-weight: 600;
+    float: right;
+    margin-top: -6px;
+    margin-right: -14px;
+}
+.wandwidth-title {
+    position: relative;
+    height: 55px;
+}
+.wandwidth-title{position:relative;}
+.snapshot-container-inner h4 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #3f3636;
+    font-weight: 600;
+    margin: 25px 0px 10px;
+}
+.snapshot-container-inner {
+    padding: 40px 30px 23px;
+}
+.snapshot-container-inner h3 {
+font-size: 38px;
+letter-spacing: -1px;
+color: #4dbf91;
+font-weight: 700;
+}
+.snapshot-container-inner p {
+font-size: 12px;
+color: #9f9a9a;
+font-weight: 700;
+}
+select.graph-select {
+    color: #2c77f4;
+    font-size: 12px;
+    float: right;
+    min-width: 125px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: #e9f1fe;
+    border: 0px;
+    
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 12px;
+    /*background-image: url(../images/server/select-icon.png);*/
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+select.graph-select:focus {
+    outline:none;
+}
+.graphs-inner-box {
+    float: left;
+    width: 100%;
+        padding-bottom: 30px;
+}
+ul.graphs-tabs li {
+    font-size: 13px;
+    letter-spacing: 0px;
+    color: #b7b7b7;
+    font-family: "Open Sans";
+    font-weight: 700;
+    display: inline-block;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+ul.graphs-tabs {margin:0px;}
+.active-li{background:#fef0f1;color:#d3414d!important;}
+ul.graphs-tabs {
+    margin: 0px;
+    padding: 17px 27px 40px;
+}
+.map img {
+    width: 783px;
+    margin: auto 0px auto auto;
+    display: block;
+    max-width: 100%;
+}
+.server-details-inner ul li i.fa.fa-check {
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: #edf2f5;
+    color: #be6269;
+    font-size: 9px;
+    padding-top: 4px;
+    text-align:center;
+}
+.server-details-inner ul li span {
+    font-size: 14px;
+    color: #8a8a8a;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.server-details-inner li.server-version {
+    font-size: 14px;
+    color: #3f3636;
+    font-weight: 600;
+    line-height: 26px;
+    display: flex;
+}
+.server-details-inner ul {
+    float: left;
+    width: 100%;
+    padding: 0px 0px 13px;
+    border-bottom: 1px dashed #eeeeee;
+    margin-bottom: 14px;
+}
+.server-details-inner ul li {
+    float: left;
+    width: 50%;
+    text-align: left;
+    list-style:none;
+}
+.rescue-container-inner p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #3f3636;
+    font-family: "Open Sans";
+    font-weight: 600;
+    text-align: left;
+}
+button.enable-btn {
+    min-width: 111px;
+    height: 31px;
+    border-radius: 3px;
+    background-color: #36b883;
+    border: 0px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    float: right;
+    margin-top: 13px;   
+}
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+}
+.rescue-bg{
+   /* background: url(../images/server/reduce-bottom-img.png);*/
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 45px;
+}
+select.oprator-select {
+    height: 40px;
+    border-radius: 3px;
+    background-color: #f4f7f9;
+    width: 100%;
+    border: 0px;
+    padding-left: 10px;
+    color: #3f3636;
+    font-size: 14px;
+    font-weight: 600;
+}
+button.rebuild-btn {
+    width: 111px;
+    height: 31px;
+    border-radius: 3px;
+    background-color: #83becd;
+    border: 0px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    float: right;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.server-details-inner {
+    padding: 13px 26px 0px;
+}
+
+button#stop-instance {
+    margin: 8px;
+}
+
+#addanotherip{
+    float: left;
+    margin: 10px 5px;
+    color: #DD6B10;
+    cursor: pointer;
+}
+.col-md-6.remove-ipbtn {
+    text-align: left;
+    font-size: 22px;
+    cursor: pointer;
+     
+}
+.col-md-6.remove-ipbtn  i{
+   font-weight: 300;}
+#restrictToIpAddressCheckbox{
+    cursor: pointer;
+}
+
+#add-ntrule{
+    color: #2c77f4;
+    font-size: 12px;
+    float: right;
+    min-width: 125px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: #e9f1fe;
+    border: 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 12px;
+   /* background-image: url(../images/server/select-icon.png);*/
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.copytxtbtn {
+    color: #2c77f4;
+    font-size: 12px;
+    float: right;
+    min-width: 75px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #e9f1fe;
+    border: 0px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 12px;
+   /* background-image: url(../images/server/select-icon.png);*/
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+p#detail-ptag {
+    font-size: 14px;
+    line-height: normal;
+    font-family: inherit;
+    padding: 10px;
+    background-color: #fff5f5;
+    margin: 10px 0px 22px 0px;
+}
+div#deatil-modal-body {
+    text-align: left;
+}
+#connectiondetailmodal .modal-header .close {
+    margin-top: -38px;
+    font-size: 36px;
+}
+
+
+.m-b-0{margin-bottom: 0px!important;border-bottom:0px!important;}
+@media (min-width:320px) and (max-width : 767px){
+.server-satus-title, .wandwidth-title {
+    padding: 20px 16px;
+}
+.server-satus-title h3, .wandwidth-title h3, .graphs-wrapper h3 {
+    font-size: 14px;
+}
+.server-satus-title h5 {
+    font-size: 14px;
+}
+ul.server-top-ul {
+    padding: 0px;
+    text-align: center;
+}
+ul.server-top-ul li {
+    padding-right: 6px;
+}
+ul.server-bottom-ul {
+    padding: 0px;
+    text-align: center;
+}
+.button-box .btn-style {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.m-r3 {
+    margin-right: 0%;
+}
+.wandwidth-container, .snapshot-container-right, .server-details-container, .rescue-container-right {
+    width: 100%;
+}
+.server-details-inner {
+    padding: 13px 8px 0px;
+}
+.server-details-inner ul li span {
+    font-size: 13px;
+    margin-left: 10px;
+}
+.server-details-inner li.server-version {
+    font-size: 13px;
+}
+ul.server-bottom-ul li {
+    padding: 0px 0px 0px 0px;
+}
+ul.server-bottom-ul li:last-child::before {
+    content:none;
+}
+.server-satus-cantos {
+    float: none;
+    width: 142px;
+    margin: 0 auto;
+    text-align: center;
+}
+.server-satus-cantos p {
+    margin-left: 0;
+}
+button.snapshot-btn {
+    margin-right: 0px;
+}
+.map img {
+    max-width: 94%;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+.server-details-inner {
+    padding: 13px 17px 0px;
+}   
+.rescue-bg {
+    padding-bottom: 25px;
+}
+.map img {
+    max-width: 94%;
+}
+ul.server-top-ul li {
+    padding-right: 1px;
+}
+
+}
+@media (min-width:992px) and (max-width:1199px){
+ul.server-top-ul li {
+    font-size: 13px;
+    padding-right: 5px;
+}
+.map img {
+    max-width: 94%;
+}
+.server-details-inner {
+    padding: 13px 17px 0px;
+}
+}
+
+/* server page css start */
+
+/** table css **/
+.table_section {
+  float: left;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.11);
+  background-color: #fefefe;
+    padding-top: 10px;
+}
+    
+.table_section .table thead th, .table_section .table tbody td {
+    font-size: 13px;
+    border-bottom: 1px solid #f0f4f6;
+        padding-left: 30px;
+}
+.table_section .table thead th{
+      text-transform: uppercase;
+}
+
+#serverlabel i.fa{
+    margin-left: 10px;
+}
+#serverlabel input{
+    width: 65%;
+    border-color: #3683dc;
+    margin-top: -10px;
+    height: 35px;
+}
+#serverlabel{
+    display: inline-flex;
+}
+.server-details-container.m-r3 {
+    width: 100%;
+    margin: 0;
+    margin-top: 25px;
+}
+ .rescue-container-right {
+    width: 49%;
+    margin-right: 15px;
+}
+.server-details-wrapper .rescue-container-right:last-child {
+    margin-right: 0;
+    float: right;
+}
+.rescue-container-right .rescue-container-inner {
+    min-height: 255px;
+}
+.ip_button{
+    background: #fff !important;
+    margin: 0px;
+    float: right;
+    margin-top: -10px;  
+} 
+.ip_button li{
+    margin:0px;
+}
+.ip_button li a{
+    padding : 7px !important;
+    background-color : #006687 !important;
+    color:#fff !important;
+}
+
+
+section.linode-contant .restorebackup {
+    display: inline-block;
+    width: auto;
+    border: 1.5px solid #36b883;
+    text-align: center;
+    padding: 5px 7px;
+    border-radius: 4px;
+    background-color: #36b883;
+}
+
+section.linode-contant .restorebackup img {
+    max-width: 21px;
+    display: block;
+    width: 100%;
+    filter: invert(1);
+}
+
+
+.clientareaproductdetails .linode-contant .nav-tabs li a {
+    background-color: #36b883;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.clientareaproductdetails .linode-contant  .nav-tabs li a:hover {
+    background-color: #36b883;
+    color: #ffffff !important;
+    box-shadow: unset;
+}
+section.linode-contant .table_section .table tbody td .reversebtn {
+    display: inline-block;
+    width: auto;
+    border: 1.5px solid #36b883;
+    text-align: center;
+    padding: 5px 7px;
+    border-radius: 4px;
+    background-color: #36b883;
+}
+section.linode-contant .table_section .table tbody td .reversebtn img {
+    max-width: 21px;
+    display: block;
+    width: 100%;
+filter: invert(1);
+}
+
+section.linode-contant button.rebuild-btn {
+    background-color: #36b883;
+}
+
+select#graph_type {
+    color: #2c77f4;
+    font-size: 12px;
+    /* float: right; */
+    min-width: 125px;
+    height: 32px;
+    border-radius: 3px;
+    background-color: #e9f1fe;
+    border: 0px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 12px;
+    padding-right: 12px;
+  /*  background-image: url(../images/server/select-icon.png);*/
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+ul#disk-ul {
+    list-style: circle;
+    padding: 10px;
+}
+ul#disk-ul li {
+    padding-bottom: 10px;
+    }
+
+a#disk-detached {
+    float: right;
+    background-color: #fe4e5b;
+    padding: 5px;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 0px;
+    /* height: 40px; */
+    padding: 6px 8px;
+    /* margin-right: 6px; */
+    font-weight: 600;
+}
+
+button#add-ntrule {
+    float: right;
+    margin: 12px 0px;
+}
+form#rule-firewal {
+    padding: 25px 10px;
+}
+.fr-ip-checkbox {
+    float: left;
+    padding: 0px 18px;
+}
+
+/**** 29-11-2019*** CSS ***neha ***/
+.server-satus-wrapper .progress-circle{
+       margin: 10px auto 41px;
+}
+/* 28-11-2019 css start */
+@media(max-width:767px){
+
+    .rescue-container-right {
+        width: 100%;
+        margin-right: 0;
+    }
+    .module-client-area {
+        padding: 15px 0px 0 0px;
+    }
+    .footer .footer_col ul.footer_links li a {
+        min-width: initial;
+    }
+    .table_section {
+        padding-top: 50px;
+    }
+    .ip_button { 
+        margin-top: 23px;
+    }
+    .table_section .table-responsive {
+        margin: 0;
+    }
+    .rescue-container-right .rescue-container-inner {
+      min-height: 1px;
+    }
+    .clientareaproductdetails .pull-right>.dropdown-menu {
+        right: auto;
+        left: 0;
+    }
+    .clientareaproductdetails .nav-tabs li a.dropdown-toggle:after{
+        display:none; 
+    }
+
+/*--------- start template-21-changes-----------*/
+  
+    .main-section-aws .table-striped td, .main-section-aws .table-striped th, .main-section-aws .table_section th, .main-section-aws .table_section td, .table_section .table thead th, .table_section .table tbody td {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    .main-section-aws .table-striped td i, .main-section-aws .table_section td i{font-size: 12px !important;}
+    .main-section-aws .snapshots-wrapper .wandwidth-title {height: auto;}
+    .main-section-aws ul.nav.nav-tabs.power_tab.ip_button {margin-top: 12px!important;float: none;display: inline-block;width: 100%;margin-bottom: 0;}
+    .main-section-aws .server-satus-title, .main-section-aws .wandwidth-title {padding: 16px 15px !important;}
+    .main-section-aws .tab-pane p{line-height: normal;}
+    .main-section-aws .graphs-wrapper select#graph_type {margin: 15px auto; min-width: 90%; float: none; display: inherit;}
+   .smoke-base .dialog{width: 80%;left: inherit;margin-left: auto;padding-right: initial;right: inherit;margin: 0 auto;}
+   .twenty-one .modal .modal-dialog, .hostx .modal .modal-dialog, .clientx.modal .modal-dialog, .six .modal .modal-dialog {padding: 5px;}
+}
+@media(max-width:480px){
+    #ipv6 {
+        max-width: 111px;
+        overflow-x: scroll;
+    }
+    /***hostx***/
+    .container-hostx-body table#firewal-rl-list {
+    display: block;
+    overflow-x: auto;
+    }
+    .container-hostx-body table#firewal-rl-list thead tr th {
+    white-space: nowrap;
+    }
+    .container-hostx-body .snapshots-wrapper ul.nav.nav-tabs.power_tab.ip_button a{
+    white-space: nowrap;
+    margin: 0;
+    }
+    .container-hostx-body .snapshots-wrapper ul.nav.nav-tabs.power_tab.ip_button{
+    width: 100%;
+    }
+    .container-hostx-body .snapshots-wrapper ul.nav.nav-tabs.power_tab.ip_button li input{
+    width: 115px !important;
+    }
+
+    /*--------- start template-21-changes-----------*/
+    .main-section-aws .table-striped, .main-section-aws .table_section {
+        display: block;
+        overflow-y: auto;
+    }
+    .main-section-aws .table-striped td, .main-section-aws .table-striped th, .main-section-aws .table_section th, .main-section-aws .table_section td, .table_section .table thead th, .table_section .table tbody td {
+        font-size: 11px;
+        white-space: nowrap;
+    }
+    .main-section-aws .table-striped td i, .main-section-aws .table_section td i {font-size: 11px!important;}
+   
+}
+/*.bandwidth-snapshop-wrapper.row {width: auto;}*/
+.wd-100{width: 100%;}
+
+
+/*--------- start template-21-changes-----------*/
+.tab-content.bg-white.product-details-tab-container{border-top: 1px solid #ddd}
+.main-section-aws .server-satus-running{margin-top: 10px;}
+.main-section-aws .server-satus-title, .main-section-aws .wandwidth-title {padding: 16px 30px; background: #f5f5f5;}
+.main-section-aws .server-satus-inner-box {padding: 30px 15px;}
+.main-section-aws .server-details-inner ul li span{color: #666;}
+.main-section-aws .graphs-wrapper select#graph_type {margin: 20px 30px 10px;-webkit-appearance: inner-spin-button;background-image: inherit;}
+.main-section-aws select.graph-select{-webkit-appearance: inner-spin-button;background-image: inherit;}
+.main-section-aws ul#disk-ul li {padding-bottom: 10px;list-style: none;}
+.main-section-aws ul#disk-ul h5 {font-size: 14px;padding-top: 10px;}
+.main-section-aws ul.nav.nav-tabs.power_tab.ip_button {margin-top: -5px;background: transparent!important;}
+.main-section-aws .tab-pane .modal-dialog p {padding: 16px 15px 0;margin-bottom: 0;}
+.main-section-aws form#rule-firewal {padding: 25px 15px;}
+.main-section-aws .fr-ip-checkbox {float: left;padding: 0 0 10px;}
+.main-section-aws .graphs-wrapper select#graph_type {margin: 15px auto!important;min-width: 86%;width: 94%;}
+.main-section-aws .wandwidth-container-inner, .main-section-aws .snapshot-container-inner, .main-section-aws .server-details-inner, .main-section-aws .rescue-container-inner {
+    padding: 26px 15px;
+}
+/*end*/
+
+.twenty-one #connectiondetailmodal .modal-header .close, .hostx #connectiondetailmodal .modal-header .close, .clientx #connectiondetailmodal .modal-header .close, 
+.six #connectiondetailmodal .modal-header .close {margin: 5px 0 0; font-size: 34px; float: right;line-height: 30px; padding: 0; height: auto;}
+
+
+/******hostx****/
+@media(max-width:991px) {
+.container-hostx-body div#addrulemodal #port-firewal, .container-hostx-body div#addrulemodal select, .container-hostx-body div#addrulemodal .form-group, .container-hostx-body #updaterulemodal .form-group{
+width: 100%;
+max-width: 100%;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:1199px) {
+.container-hostx-body ul.nav.nav-tabs.power_tab.ip_button{
+margin-top: -10px;
+margin-right: -25px;
+}
+
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+.main-section-aws .server-satus-cantos {float: left; width: 140px;}
+.main-section-aws .button-box .btn-style { font-size: 13px;padding: 0px 8px;margin-right: 0px;}
+.main-section-aws .button-box i {font-size: 14px;}
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+.main-section-aws .server-satus-cantos {float: left; width: 150px;}
+.main-section-aws .button-box .btn-style { font-size: 13px;}
+}
+@media (min-width:541px) and (max-width:767px) {
+.container-hostx-body ul.nav.nav-tabs.power_tab.ip_button{
+margin-top: 0;
+}
+.container-hostx-body ul.nav.nav-tabs.power_tab.ip_button a{
+margin: 0;
+}
+.container-hostx-body ul.nav.nav-tabs.power_tab.ip_button input{
+margin-bottom: 0;
+}
+.container-hostx-body ul.nav.nav-tabs.power_tab.ip_button li{
+margin-top: -10px;
+}
+}
+
+
+
+

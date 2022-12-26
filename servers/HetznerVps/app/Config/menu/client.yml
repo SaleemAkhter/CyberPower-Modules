@@ -1,0 +1,29 @@
+mg-provisioning-module:
+  children:
+    backups:
+      order: 701
+      uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=Backups'
+    console:
+      order: 702
+      uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=Console'
+    firewalls:
+      order: 703
+      uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=Firewalls'
+    floatingIPs:
+      order: 704
+      uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=FloatingIPs'
+    graphs:
+      order: 705
+      uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=Graphs'
+    isos:
+      order: 706
+      uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=Isos'
+    rebuild:
+      order: 707
+      uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=Rebuild'
+    reverseDNS:
+      order: 708
+      uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=ReverseDNS'
+    snapshots:
+      order: 709
+      uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=Snapshots'

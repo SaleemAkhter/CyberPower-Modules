@@ -1,0 +1,27 @@
+class:
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Configuration\\Addon\\Config\\After',            alias: "", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Configuration\\Addon\\Activate\\After',          alias: "", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Configuration\\Addon\\Deactivate\\After',        alias: "", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Configuration\\Addon\\Update\\After',            alias: "", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Configuration\\Addon\\Config\\Before',           alias: "", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Configuration\\Addon\\Activate\\Before',         alias: "", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Configuration\\Addon\\Deactivate\\Before',       alias: "", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Configuration\\Addon\\Update\\Before',           alias: "", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Configuration\\Addon',         alias: "configurationAddon", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Configuration\\Data',           alias: "configurationData", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Helper\\Lang',                               alias: "lang", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Http\\View\\Smarty',                       alias: "smarty", singleton: true , auto: true }
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\HandlerError\\Logger',                     alias: "logger", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\HandlerError\\ErrorManager',         alias: "errorManager", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Http\\Request',                           alias: "request", singleton: true , auto: true }
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\UI\\View',                                   alias: "view", singleton: true , auto: true }
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\UI\\ViewAjax',                           alias: "viewAjax", singleton: true , auto: true }
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Http\\AbstractController',             alias: "controller", singleton: true , auto: true }
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Http\\AbstractClientController', alias: "clientController", singleton: true , auto: true }
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Http\\AbstractHooksClient',alias: "clientHookController", singleton: true , auto: true }
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Http\\AbstractProductPage',alias: "adminProductPage", singleton: true , auto: true }
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Configuration\\Addon\\Update\\PatchManager',alias: "patchManager",singleton: true ,auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\HandlerError\\WhmcsRegisterLoggin',   alias: "whmcsLogger", singleton: true , auto: false}
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\Logger\\Entity',                     alias: "entityLogger", singleton: true , auto: true }
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\CommandLine\\CronManager',            alias: "cronManager", singleton: true , auto: true }
+    - {namespace: '\\ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\RegisterManager\\Register',              alias: "register", singleton: true , auto: false}

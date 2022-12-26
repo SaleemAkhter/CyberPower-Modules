@@ -1,0 +1,12 @@
+Service Details Overview:
+Service Details Actions: []
+mg-provisioning-module:
+  icon: 'fa-cog'
+  order: 25
+  children:
+    firewallRules:
+      order: 2
+    elasticIps:
+      order: 3
+    networkInterfaces:
+      order: 5

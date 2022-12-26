@@ -1,0 +1,229 @@
+////////////////////////////////////////////////////////////////////////////////
+
+
+// You can add more OS in this file like (Windows/Linux)
+
+
+// Format like "OS-OS Version-OS Version ID"
+
+
+// Add all values with hyphen(-) separator
+
+
+// Example for Windows "Windows-Windows 7-windows7Guest"
+
+
+// Example for Linux "Linux-Ubuntu Linux-ubuntuGuest"
+
+
+// Example for Others "Others-FreeBSD-freebsdGuest"
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+Windows-Windows Server 2016 (64 bit)-windows9Server64Guest
+Windows-Windows Server 2019 (64 bit)-windows2019srv_64Guest
+Windows-Windows Server 2022 (64 bit)-windows2019srv_64Guest
+Windows-Windows Server 2012 R2 (64 bit)-windows8Server64Guest
+Windows-Windows Server 2008 R2 (64 bit)-windows7Server64Guest
+Windows-Windows 10 (64 bit)-windows9_64Guest
+Windows-Windows 10-windows9Guest
+Windows-Windows 2000 Advanced Server-win2000AdvServGuest
+Windows-Windows 2000 Professional-win2000ProGuest
+
+
+Windows-Windows 2000 Server-win2000ServGuest
+
+
+Windows-Windows 3.1-win31Guest
+
+
+Windows-Windows 95-win95Guest
+
+
+Windows-Windows 98-win98Guest
+
+
+Windows-Windows 7 (64 bit)-windows7_64Guest
+
+
+Windows-Windows 8 (64 bit)-windows8_64Guest
+
+
+Windows-Windows 7-windows7Guest
+
+
+Windows-Windows 8-windows8Guest
+
+
+Windows-Windows HyperV-windowsHyperVGuest
+
+Windows-Windows Longhorn (64 bit) (experimental)-winLonghorn64Guest
+
+
+Windows-Windows Longhorn (experimental)-winLonghornGuest
+
+
+Windows-Windows Millenium Edition-winMeGuest
+
+
+Windows-Windows Small Business Server 2003-winNetBusinessGuest
+
+
+Windows-Windows Server 2003, Datacenter Edition (64 bit) (experimental)-winNetDatacenter64Guest
+
+
+Windows-Windows Server 2003, Datacenter Edition-winNetDatacenterGuest
+
+
+Windows-Windows Server 2003, Enterprise Edition (64 bit)-winNetEnterprise64Guest
+
+
+Windows-Windows Server 2003, Enterprise Edition-winNetEnterpriseGuest
+
+
+Windows-Windows Server 2003, Standard Edition (64 bit)-winNetStandard64Guest
+
+
+Windows-Windows Server 2003, Standard Edition-winNetStandardGuest
+
+
+Windows-Windows Server 2003, Standard Edition-winNetStandardGuest
+
+
+Windows-Windows Server 2003, Web Edition-winNetWebGuest
+
+
+Windows-Windows NT 4-winNTGuest
+
+
+Windows-Windows Vista (64 bit)-winVista64Guest
+
+
+Windows-Windows Vista-winVistaGuest
+
+
+Windows-Windows XP Home Edition-winXPHomeGuest
+
+
+Windows-Windows XP Professional Edition (64 bit)-winXPPro64Guest
+
+
+Windows-Windows XP Professional-winXPProGuest
+
+Linux-CentOS 8 (64 bit)-centos8_64Guest
+
+Linux-CentOS 7-centos7Guest
+
+Linux-CentOS 7 (64 bit)-centos7_64Guest
+
+Linux-CentOS 6 (64 bit)-centos6_64Guest
+
+Linux-CentOS 4/5-centosGuest
+
+
+Linux-CentOS 4/5 (64 bit)-centos64Guest
+Linux-CentOS 6-centos6Guest
+
+
+Linux-Debian GNU/Linux 4 (64 bit)-debian4_64Guest
+
+
+Linux-Debian GNU/Linux 4-debian4Guest
+
+
+Linux-Debian GNU/Linux 5 (64 bit)-debian5_64Guest
+
+
+Linux-Debian GNU/Linux 5-debian5Guest
+
+
+Linux-Debian GNU/Linux 7-debian7Guest
+Linux-Debian GNU/Linux 8 (64 bit)-debian8_64Guest
+Linux-Debian GNU/Linux 8 (32 bit)-debian8Guest
+Linux-Debian GNU/Linux 9 (32 bit)-debian9Guest
+Linux-Debian GNU/Linux 9 (64 bit)-debian9_64Guest
+Linux-Debian GNU/Linux 10 (32 bit)-debian10Guest
+Linux-Debian GNU/Linux 10 (64 bit)-debian10_64Guest
+Linux-Debian GNU/Linux 11 (32 bit)-debian11Guest
+Linux-Debian GNU/Linux 11 (64 bit)-debian11_64Guest
+
+Linux-Fedora Linux-fedoraGuest
+
+Linux-Fedora Linux (64 bit)-fedora64Guest
+
+
+Linux-Ubuntu Linux (64 bit)-ubuntu64Guest
+
+Linux-Ubuntu 17.10.1 (64 bit)-ubuntu64Guest
+
+
+Linux-Ubuntu 18.04 Live Server-ubuntu64Guest
+Linux-Ubuntu 21.10-ubuntu64Guest
+Linux-Ubuntu 21.04-ubuntu64Guest
+Linux-Ubuntu 20.10-ubuntu64Guest
+Linux-Ubuntu 20.10-ubuntu64Guest
+
+Linux-Ubuntu 20.04 LTS-ubuntu64Guest
+
+
+Linux-Ubuntu Linux-ubuntuGuest
+
+Linux-Debian GNU/Linux 7 (64 bit)-debian7_64Guest
+
+
+Linux-Linux 2.4x Kernel (64 bit) (experimental)-other24xLinux64Guest
+
+
+Linux-Linux 2.6x Kernel (64 bit) (experimental)-other26xLinux64Guest
+
+
+Linux-Linux 2.4x Kernel-other24xLinuxGuest
+
+
+Linux-other24xLinuxGuest-otherLinuxGuest
+
+
+Linux-Linux (64 bit) (experimental)-otherLinux64Guest
+
+
+Linux-Red Hat Linux 2.1-redhatGuest
+
+
+Linux-Red Hat Enterprise Linux 2-rhel2Guest
+
+
+Linux-Red Hat Enterprise Linux 3 (64 bit)-rhel3_64Guest
+
+
+Linux-Red Hat Enterprise Linux 3-rhel3Guest
+
+
+Linux-Red Hat Enterprise Linux 4 (64 bit)-rhel4_64Guest
+
+
+Linux-Red Hat Enterprise Linux 4-rhel4Guest
+
+
+Linux-Red Hat Enterprise Linux 5 (64 bit) (experimental)-rhel5_64Guest
+
+
+Linux-Red Hat Enterprise Linux 5 (64 bit) (experimental)-rhel5_64Guest
+
+
+Linux-Red Hat Enterprise Linux 5-rhel5Guest
+
+
+Linux-Red Hat Enterprise Linux 6 (64 bit)-rhel6_64Guest
+
+
+Linux-Red Hat Enterprise Linux 6-rhel6Guest
+
+
+Others-FreeBSD-freebsdGuest
+
+
+Others-FreeBSD x64-freebsd64Guest

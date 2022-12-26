@@ -1,0 +1,31 @@
+
+#layers .lu-app
+{
+    background-color: #efefef;
+}
+
+#layers .lu-app-main__body {
+    padding: 8px;
+}
+
+#layers .lu-app-main__body .vue-app-main-container {
+    margin-bottom: -16px;
+}
+
+#layers .configOption {
+    border-bottom: 1px solid #edeff2;
+    padding: 10px;
+    height: auto;
+}
+
+#layers .configOptionButton {
+    padding: 16px 0px 15px 0px;
+}
+
+#layers .configOptionBox {
+    padding: 0px 15px 15px 15px !important;
+
+}
+
+
+

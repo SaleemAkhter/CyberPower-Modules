@@ -1,0 +1,9 @@
+class:
+    - {old: 'ModulesGarden\\WordpressManager\\Core\\Configuration\\Addon\\Config\\After',     new: 'ModulesGarden\\WordpressManager\\App\\Configuration\\Addon\\Config\\After'}
+    - {old: 'ModulesGarden\\WordpressManager\\Core\\Configuration\\Addon\\Activate\\After',   new: 'ModulesGarden\\WordpressManager\\App\\Configuration\\Addon\\Activate\\After'}
+    - {old: 'ModulesGarden\\WordpressManager\\Core\\Configuration\\Addon\\Deactivate\\After', new: 'ModulesGarden\\WordpressManager\\App\\Configuration\\Addon\\Deactivate\\After'}
+    - {old: 'ModulesGarden\\WordpressManager\\Core\\Configuration\\Addon\\Update\\After',     new: 'ModulesGarden\\WordpressManager\\App\\Configuration\\Addon\\Update\\After'}
+    - {old: 'ModulesGarden\\WordpressManager\\Core\\Configuration\\Addon\\Config\\Before',    new: 'ModulesGarden\\WordpressManager\\App\\Configuration\\Addon\\Config\\Before'}
+    - {old: 'ModulesGarden\\WordpressManager\\Core\\Configuration\\Addon\\Activate\\Before',  new: 'ModulesGarden\\WordpressManager\\App\\Configuration\\Addon\\Activate\\Before'}
+    - {old: 'ModulesGarden\\WordpressManager\\Core\\Configuration\\Addon\\Deactivate\\Before',new: 'ModulesGarden\\WordpressManager\\App\\Configuration\\Addon\\Deactivate\\Before'}
+    - {old: 'ModulesGarden\\WordpressManager\\Core\\Configuration\\Addon\\Update\\Before',    new: 'ModulesGarden\\WordpressManager\\App\\Configuration\\Addon\\Update\\Before'}

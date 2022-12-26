@@ -1,0 +1,73 @@
+#layers .table--mob-collapsible td{
+    word-break: break-all;
+}
+#layers .tabsWidget{
+    margin-left:  7px;
+    margin-right: 7px;
+}
+
+#layers #unbanPage{
+    margin-left:  8px;
+    margin-right: 8px;
+}
+
+#layers #fileManagerPage .t-c__mass-actions .top__toolbar button {
+    padding: 0;
+}
+
+body {
+    height: auto;
+}
+
+#additionalinfo>.row>.text-left{
+    word-wrap: break-word;
+}
+
+
+#layers .mg-vnc-wrapper {
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+#layers .noVNC_status_normal,
+#layers .noVNC_status_normal_top{
+    background: none;
+}
+
+#layers .noVNC_status_error,
+#layers .noVNC_status_error_top{
+    background: none;
+}
+
+#layers .noVNC_status_warn,
+#layers .noVNC_status_warn_top{
+    background: none;
+}
+
+#layers #noVNC_status,
+#layers #noVNC_status_top{
+    font: 500 16px "Roboto", sans-serif;
+    color: #000;
+}
+
+
+.password_element {
+    text-align: center;
+}
+.password_element input{
+    border: 0px solid;
+    width: 90%;
+    text-align: center;
+}
+.password_element input:focus {
+    background-color: white;
+    border: 0px solid;
+    outline: none;
+
+}
+
+.mg-toast {
+    opacity: 1 !important;
+    border: none !important;
+}

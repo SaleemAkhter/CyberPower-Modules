@@ -1,0 +1,5 @@
+- \ModulesGarden\CloudBilling\Core\Lang\Lang
+- \ModulesGarden\CloudBilling\Core\App\Controllers\Instances\Addon\Config
+- \ModulesGarden\CloudBilling\Core\UI\Widget\Sidebar\SidebarService
+- \ModulesGarden\CloudBilling\Core\Helper\WhmcsParams
+- \ModulesGarden\CloudBilling\Core\App\AppParamsContainer

@@ -1,0 +1,28 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "SocialMediaLogIn",
+  "license": "proprietary",
+  "category": "other",
+  "description": {
+    "name": "Social Media Login",
+    "tagline": "Enable your customers to log into the client area with their preferable social media account.",
+    "short": "Enable your customers to log into the client area with their preferable social media account.",
+    "long": " Social Media Login For WHMCS is a convenient module that connects with various social networks and allows quick login without the need to type in the username, email or WHMCS password. Do not ask your clients to remember further login details to yet another system and let them sign in to your client area with their preferable social media accounts!\nThe module configuration could not be easier. All you have to do is decide which of the supported providers you wish to enable and then create the application on the social media platform site. Choose from the most popular in the world, such as Facebook, Twitter, Google, LinkedIn and many others. Thanks to that, your customers will get a chance to sign up with any available personal details being automatically downloaded and filled out. If already registered, they can log in to your client area with their favorite social network both on the main login page and when placing an order as well. An added benefit arises from the ability of your customers to link their existing WHMCS accounts with any available platform!"
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https://marketplace.whmcs.com/product/2158-social-media-login-for-whmcs",
+    "learn_more": "https://www.modulesgarden.com/products/whmcs/social-media-login#features",
+    "support_url": "https://www.modulesgarden.com/support",
+    "docs_url": "https://www.docs.modulesgarden.com/Social_Media_Login_For_WHMCS"
+  },
+  "authors": [
+    {
+      "name": "ModulesGarden",
+      "homepage": "https://www.modulesgarden.com/"
+    }
+  ]
+}

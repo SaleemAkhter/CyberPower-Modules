@@ -1,0 +1,85 @@
+mg-provisioning-module:
+    icon: 'fa-cog'
+    order: 25
+    children:
+        applications:
+            order: 2
+        addonDomains:
+            order: 1
+        backups:
+            order: 3
+        databases:
+            order: 4
+        dnsManage:
+            order: 5
+        fileManager:
+            order: 6
+        ftp:
+            order: 7
+        hotlinkProtection:
+            order: 8
+        perlModules:
+            order: 9
+        subdomains:
+            order: 10
+        siteSummary:
+            order: 11
+        
+
+
+email-management:
+    icon: 'fa-envelope'
+    order: 30
+    children:
+        autoresponders:
+            order: 1
+        catchEmails:
+            order: 2
+        emails:
+            order: 3
+        emailForwarders:
+            order: 4
+        mailingLists:
+            order: 5
+        spamFilters:
+            order: 6
+        spamAssasin:
+            order: 7
+        vacation:
+            order: 8
+
+advanced-features:
+    icon: 'fa-cogs'
+    order: 35
+    children:
+        apacheHandlers:
+            order: 1
+        cron:
+            order: 2
+        domainPointers:
+            order: 4
+        errorPages:
+            order: 3
+        protectedDirectories:
+            order: 5
+        siteRedirection:
+            order: 5
+        ssh:
+            order: 7
+        ssl:
+            order: 8
+        wordPressManager:
+            order: 9
+
+one-click-login:
+    icon: 'fa-reply'
+    order: 40
+    children:      
+        directAdmin:
+            order: 1
+        webmail:
+            order: 4
+        phpmyadmin:
+            order: 2
+        sitepad:
+            order: 3

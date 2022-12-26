@@ -1,0 +1,22 @@
+dashboard:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-home'
+pricingGroups:
+    icon: 'lu-nav__link-icon lu-zmdi zmdi lu-zmdi-money'
+products:
+    icon: 'lu-nav__link-icon lu-zmdi zmdi lu-zmdi-settings'
+services:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-view-toc'
+invoices:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-money-box'
+credentials:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-key'
+settings:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-wrench'
+logs:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-assignment'
+    submenu:
+        logs: []
+        billingServicesLogs: []
+documentation:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-file-text'
+    externalUrl: "http://www.docs.modulesgarden.com/Cloud_Billing_For_WHMCS"

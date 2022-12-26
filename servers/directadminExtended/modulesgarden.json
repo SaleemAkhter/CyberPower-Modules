@@ -1,0 +1,12 @@
+{
+   "database":{
+      "tables":[
+         "DirectAdminExtended_Backups",
+         "DirectAdminExtended_FTPEndPoints",
+		 "DirectAdminExtended_FunctionsSettings",
+		 "DirectAdminExtended_Logger",
+		 "DirectAdminExtended_ModuleSettings",
+		 "DirectAdminExtended_ProductSettings"
+      ]
+   }
+}

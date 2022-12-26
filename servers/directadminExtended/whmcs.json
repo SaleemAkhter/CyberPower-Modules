@@ -1,0 +1,30 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "DirectadminExtended",
+  "version": "",
+  "license": "proprietary",
+  "category": "other",
+  "description": {
+    "name": "DirectAdmin Extended",
+    "tagline": "Automate the provisioning of web hosting accounts and permit your clients to access FTP server, handle files, and more.",
+    "long": "DirectAdmin Extended For WHMCS introduces automation into provisioning of web hosting accounts and enables their fully remote management at the same time. Your customers will be spared the hassle of leaving your website, as every most commonly used DirectAdmin feature will be accessible in the WHMCS client area.\n\nThe module will optimize all supervisory tasks over FTP accounts, files, databases, email accounts, backups, domains and other fundamental components. It also supports Let's Encrypt, allowing your customers to obtain basic SSL certificates with a simple click. Additionally, thanks to inbuilt Softaculous and Installatron application installers, they will be free to add, edit, delete, backup and restore hundreds of different web applications.\n\nYou will be offered an opportunity to sell accounts as ready products with particular resource limits, and determine whether they shall be suspended instantly upon reaching the allowed usage of bandwidth. Moreover, you will be able to automatically assign a dedicated IP address, set a reseller IP address, as well as choose exactly what tools your clients are permitted to use.",
+    "features": [
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "marketplace": {
+    "url": "https:\/\/marketplace.whmcs.com\/product\/1370-directadmin-extended-for-whmcs"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.modulesgarden.com\/DirectAdmin_Extended_For_WHMCS"
+  },
+  "authors": [
+    {
+      "name": "ModulesGarden",
+      "homepage": "https:\/\/www.modulesgarden.com\/"
+    }
+  ]
+}

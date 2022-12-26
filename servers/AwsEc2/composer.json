@@ -1,0 +1,48 @@
+{
+    "name": "modulesgarden/awsec2",
+    "description": "",
+    "version": "2.1.0",
+    "type": "project",
+    "license": "EULA",
+    "homepage": "https://www.modulesgarden.com",
+    "support":
+            {
+                "email": "contact@modulesgarden.com",
+                "issues": "https://www.modulesgarden.com/customers/support",
+                "forum": "https://www.forum.modulesgarden.com/"
+            },
+    "authors": [],
+    "require":
+            {
+                "php": ">=5.5.9",
+                "piwik/ini": "1.0.6",
+                "mso/idna-convert" : "1.1.0",
+                "adbario/php-dot-notation" : "2.1.0",
+                "symfony/cache": "3.4.20",
+                "symfony/polyfill-apcu" : "1.10.0",
+                "rappasoft/laravel-helpers": "^1.0"
+            },
+    "replace": {
+                "symfony/http-foundation": "*",
+                "symfony/yaml": "*",
+                "symfony/dependency-injection": "*",
+                "psr/log" : "*",
+                "psr/cache" : "*",
+                "psr/simple-cache" : " *",
+                "psr/container" : "*",
+                "symfony/polyfill-mbstring" : "*",
+                "symfony/polyfill-php70" : "*",
+                "paragonie/random_compat": "*",
+                "symfony/console": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ModulesGarden\\Servers\\AwsEc2\\Core\\": "./core",
+            "ModulesGarden\\Servers\\AwsEc2\\App\\": "./app",
+            "ModulesGarden\\Servers\\AwsEc2\\Packages\\": "./packages"
+        },
+        "files": [
+            "./core/Helper/Functions.php"
+        ]
+    }
+}

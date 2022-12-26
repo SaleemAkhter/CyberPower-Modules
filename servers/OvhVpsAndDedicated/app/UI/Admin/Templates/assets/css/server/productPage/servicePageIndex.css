@@ -1,0 +1,19 @@
+#layers .lu-app
+{
+    background-color: #efefef;
+}
+
+#layers .lu-app-main__body {
+    padding: unset;
+}
+
+.keyValueTableCustom table
+{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#layers .keyValueTableCustom .lu-preloader:before
+{
+    bottom: 50px !important;
+}

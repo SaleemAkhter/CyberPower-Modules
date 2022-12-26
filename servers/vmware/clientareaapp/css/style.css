@@ -1,0 +1,137 @@
+.tab_header {
+    text-align: left;
+    background: #006687;
+    padding: 5px 10px;
+}
+.tab_header h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 25px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+}   
+#manageipModal .modal-header, #configFirewallModal .modal-header, #firewallRuleModal .modal-header {
+    background: #000000d4;
+    color: #fff !important;
+    text-align: left;
+}
+#manageipModal .modal-content, #configFirewallModal .modal-content, #firewallRuleModal .modal-content {
+    border-radius: 0;
+}
+#manageipModal .tab_row span, #configFirewallModal .tab_row span, #firewallRuleModal .tab_row span {
+    padding: 2px 25px !important;
+}
+.dropdown-cont {
+    position: relative;
+}
+a.dropdown-action {
+    cursor: pointer;
+}
+.dropdown-cont {
+    position: relative;
+}
+ul.dropdown-action-menu.activepanel {
+    visibility: visible !important;
+}
+ul.dropdown-action-menu {
+    list-style: none;
+    margin: 13px 0 0 0;
+    border: 1px solid #1c1c1c;
+    padding: 0;
+    min-width: 160px !important;
+    position: absolute;
+    background: #fff;
+    top: -18px;
+    /*z-index: 999999;*/
+    /*left: -200px;*/
+    right: 94px; 
+    min-height: 100%;
+    box-shadow: 0 0 10px -1px #000;
+    border-radius: 4px;
+    /* display: none; */
+    visibility: hidden;
+    text-align: left;
+}
+ul.dropdown-action-menu:after {
+    content: ' ';
+    background: transparent;
+    border: 10px solid #1c1c1c;
+    position: absolute;
+    top: 4px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    border-left: 6px solid transparent;
+    border-top: 6px solid transparent;
+    border-right: 6px solid transparent;
+    right: -14px;
+    transform: rotate(90deg);
+}
+ul.dropdown-action-menu li {
+    padding: 5px 10px;
+    /*display: inline-block;*/
+    width: 100%;
+    margin: 0;
+}
+ul.dropdown-action-menu li a {
+    width: 100%;
+    display: inline-table;
+    font-size: 14px;
+    color: #000;
+}
+
+#vmTabContent7 .table-responsive {
+    overflow-x: visible;
+}
+ul.dropdown-action-menu li:hover {
+    background: #ddd;
+}
+#configFirewallModal label.control-label {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+label.control-label.required:after {
+    content: '*';
+    color: #ff0000;
+}
+font.firewallenabled {
+    border: 1px solid #148e4a;
+    border-radius: 4px;
+    padding: 2px 5px;
+    background-color: #0e9249;
+    color: #fff !important;
+}
+font.firewalldisabled {
+    border: 1px solid #b72e20;
+    border-radius: 4px;
+    padding: 2px 5px;
+    background-color: #b72e20;
+    color: #fff !important;
+}
+table.table.datatable.manageip_table tr td {
+    text-align: left !important;
+}
+@media (min-width: 768px){
+    #firewallRuleModal .modal-dialog {
+        width: 850px !important;
+    }
+}
+
+@media screen and (min-width: 767px){
+    #firewallrulebody .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+        margin-top: 15px;
+    }  
+}
+
+i.fa.fa-trash:hover {
+    color: #ea5d5d;
+}
+i.fa.fa-trash {
+    cursor: pointer;
+}

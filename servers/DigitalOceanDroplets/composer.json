@@ -1,0 +1,45 @@
+{
+    "name": "ModulesGarden/DigitalOceanDroplets",
+    "description": "",
+    "version": "1.1.0",
+    "type": "project",
+    "license": "EULA",
+    "homepage": "http://www.modulesgarden.com",
+    "support":
+            {
+                "email": "contact@modulesgarden.com",
+                "issues": "http://www.modulesgarden.com/customers/support",
+                "forum": "http://www.forum.modulesgarden.com/"
+            },
+    "authors": [],
+    "require":
+            {
+                "php": ">=5.9.9",
+                "maximebf/debugbar": "^1.13",               
+                "piwik/ini": "^1.0",
+                "symfony/cache": "^3.3",
+                "mustangostang/spyc": "^0.5.1",
+                "mso/idna-convert": "1.*",
+                "adbario/php-dot-notation": "2.*",
+                "toin0u/digitalocean-v2": "~2.0",
+                "php-http/guzzle5-adapter": "^2.0",
+                "php-http/message": "^1.9"
+            },
+    "replace":
+            {
+                "guzzlehttp/guzzle": "*",
+                "symfony/dependency-injection": "*",
+                "symfony/http-foundation": "*",
+                "symfony/yaml": "*",
+                "guzzlehttp/psr7": "*",
+                "symfony/polyfill-mbstring" : "*",
+                "symfony/polyfill-php80" : "*"
+            },
+    "autoload": {
+        "psr-4": {
+            "ModulesGarden\\Servers\\DigitalOceanDroplets\\App\\": "./app",
+            "ModulesGarden\\Servers\\DigitalOceanDroplets\\Core\\": "./core"
+        },
+        "files": ["./core/Helper/Functions.php"]
+    }            
+}

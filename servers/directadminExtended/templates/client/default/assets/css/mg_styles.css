@@ -1,0 +1,704 @@
+
+.mg-datapicker {
+    padding: 6px 12px 6px 12px !important;
+    display: flex !important;
+    position: relative !important;
+    margin: 0 !important;
+}
+.mg-datapicker:after {
+    background-color: #fff !important;
+}
+
+.md-input-action {
+    top: 6px !important;
+}
+
+.mg-copy-component-field {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  opacity: 0;
+}
+
+.mg-copy-component-span:hover {
+    cursor: pointer;
+}
+
+.mg-sidebar-wrapper {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-5{
+    padding: 5px;
+}
+#layers .lu-app--navbar-left {
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: transparent;
+}
+
+#layers .lu-app-main .lu-app-main__body {
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+#layers .mg-ajax-menu-item {
+    padding-left: 0px;
+    justify-content: left;
+    align-items: left;
+}
+
+#layers .lu-app .lu-btn--default,
+#layers .lu-app .lu-btn--danger {
+    color: #737880;
+}
+
+#layers .lu-app .vue-app-main-modal-container .lu-btn--danger:not(.lu-btn--outline) {
+    color: #fff;
+}
+
+#layers .lu-app .lu-btn--default:hover {
+    color: #505459;
+}
+
+#layers body, #layers .lu-app {
+    background: transparent;
+}
+
+#layers .lu-list__item .lu-btn-password-show i{
+    width: 16px !important;
+    height: 16px !important;
+    min-width: 16px !important;
+    min-heigh: 16px !important;
+    width: 16px !important;
+    height: 16px !important;
+    font-size:  16px !important;
+    line-height:  16px !important;
+}
+    
+#layers .lu-list__item .lu-btn-password-hide i{
+    min-width: 16px !important;
+    min-heigh: 16px !important;
+    width: 16px !important;
+    height: 16px !important;
+    font-size:  16px !important;
+    line-height:  16px !important;
+}
+
+#layers .lu-nav__item:not(.is-active) .lu-nav__link-text-bold {
+    color: #737880;
+}
+
+#layers .lu-nav__item .lu-nav__link-text-bold {
+    font-weight: 500;
+}
+
+#layers .lu-nav__item > .lu-btn {
+    margin: 0px 16px;
+}
+
+/* Fix label inside of datatable */
+#layers .vueDatatableTable .mgTableActions label {
+    display: block;
+    margin-bottom: auto;
+    margin-top: auto;    
+}
+
+/* Dropdown Buttton Wrapper Styles */
+#layers .lu-has-dropdown .drop-content .lu-dropdown__item .lu-dropdown__link .lu-preloader {
+    margin-right: 16px;
+}
+
+#layers .lu-has-dropdown .drop-content .lu-dropdown__item .lu-dropdown__link .lu-preloader:before {
+    border-top-color: rgb(98, 202, 95);
+}
+
+#layers .lu-has-dropdown .drop-content .lu-dropdown__item a.lu-dropdown__link {
+    color: #505459;
+}
+
+#layers .lu-has-dropdown .drop-content .lu-dropdown__item a.lu-dropdown__link:hover {
+    color: rgb(98, 202, 95);
+}
+
+#layers .lu-has-dropdown .mg-drop-bg-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: 990;
+}
+
+*#layers .lu-has-dropdown .lu-drop-element {
+    z-index: 991;
+    transform: translateX(calc(36px - 100%)) translateY(5px);
+}
+
+/*End Of Dropdown Buttton Wrapper Styles */
+
+/* RED loader for delete buttons */
+#layers .lu-btn--danger .lu-preloader:before {
+    border-top-color: rgb(244, 62, 62);
+}
+
+/* GREEN loader for submit buttons */
+#layers .lu-btn--success .lu-preloader:before {
+    border-top-color: rgb(98, 202, 95);
+}
+
+/* new navbar left styles */
+#layers .page-content .vue-app-main-container .lu-app .lu-app-main .lu-app-main__body {
+    padding-left: 0px;
+}
+
+#layers .page-content .vue-app-main-container .lu-app .lu-app-main .lu-app-main__body .mg-left-menu-content{
+    padding: 0px 0px 0px 0px;
+}
+
+#layers .page-content .vue-app-main-container .lu-app .lu-app-main .lu-app-main__body .lu-block .lu-row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* end of new navbar left styles */
+
+/* selectize css fixes */
+#layers .selectize-control.multi .item {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    padding-left: 8px;
+    padding-right: 24px;
+    margin: 0 4px 4px 0;
+    background: #e9ebf0;
+    line-height: 24px;
+}
+
+#layers .selectize-control.multi .item a {
+    padding: 0;
+    color: #2368AD;
+    position: absolute;
+    width: 16px;
+    transition: color 0.3s;
+    text-align: center;
+    right: 0px;
+}
+
+#layers .selectize-control.multi.plugin-remove_button .item > a:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+#layers .selectize-control.multi .item.active {
+    color: #333;
+}
+
+#layers .selectize-control.multi .selectize-input {
+    padding-bottom: 0px;
+    padding-left: 15px;
+    display: block;
+}
+/* end of selectize css fixes */
+
+/* Modal Background */
+#layers .lu-modal.show {
+    background-color: rgba(80, 84, 89, 0.5);
+}
+/* End of Modal Background */
+
+/* Show Allerts on top of new modal background */
+#layers-body #toast-container,
+#layers #toast-container {
+  z-index: 1102;
+}
+/* End of Show Allerts on top of new modal background */
+
+/* force break lines on lu-list--info */
+#layers .lu-list--info .lu-list__value {
+    word-break: break-all;
+}
+/* end of force break lines */
+
+/* fix form validation styles for input groups */
+#layers .lu-form-group.lu-is-error .lu-input-group input.lu-form-control,
+#layers .lu-form-group.lu-is-error .lu-input-group .selectize-input.lu-form-control {
+    border: none;
+}
+/* end of fix form validation styles for input groups */
+
+.mg-toast {
+    opacity: 1 !important;
+    border: none !important;
+    max-width: none !important;
+}
+.breadcrumb{
+    margin-top: 0 !important;
+    margin-bottom: 0;
+}
+
+#editIpForm .ui-form-submit,#editPackageForm .ui-form-submit{
+    display: none;
+}
+
+#editIpForm,#editPackageForm{
+    border-bottom: 1px solid #edeff2;
+}
+#editUsageForm{
+    padding: 20px;
+}
+.UsersEdit_page_container{
+    padding: 20px;
+}
+.UsersEdit_page_container .box-title{
+    padding: 20px 0;
+}
+.row.currentips{
+    padding: 10px;
+}
+.UsersEdit_page_container .lu-widget__body{
+    border-bottom: none !important;
+}
+#layers .selectize-control .selectize-dropdown .option:hover{
+    background: #e6f6fc;
+}
+
+#layers .selectize-control .selectize-dropdown .option.active{
+    background: #e6f6fc;
+}
+#layout01 #toast-container, #layers #toast-container{
+    margin-top: 16px;
+}
+
+#ex3 .fa-stack[data-count]:after {
+  position: absolute;
+  right: 0%;
+  top: 1%;
+  content: attr(data-count);
+  font-size: 30%;
+  padding: .6em;
+  border-radius: 50%;
+  line-height: .8em;
+  color: white;
+  background: rgba(255, 0, 0, 0.85);
+  text-align: center;
+  min-width: 1em;
+  font-weight: bold;
+}
+.unread{
+    font-size: 12px;
+    color: #62CA5F;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.show_page_container .footer{
+        border-top: 1px solid #edeff2;
+    }
+.form-title{
+    background-color: rgb(199, 233, 244); border-bottom: 1px solid rgb(237, 239, 242);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#accountDetailsTable tbody tr:nth-child(1) td{
+    font-size: 16px;
+    font-weight: 800;
+}
+#accountDetailsTable tbody tr:nth-child(2) td{
+    font-weight: 800;
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .module-client-area{
+        padding: 0 !important;
+    }
+}
+
+#accountDetailsTable .dataTable thead{
+    display: none;
+}
+.dial-usage{
+    display: none !important;
+}
+.lu-mob-top-search,.mob-top-search{
+    background: var(--primary-block-bg-h);
+}
+#layers .lu-btn--primary{
+
+    color: var(--btn-primary-faded-color);
+    background: var(--btn-primary-faded-bg);
+    border-color: var(--btn-primary-faded-border);
+
+}
+#layers .lu-btn--primary:hover{
+
+    color: var(--btn-primary-faded-color);
+    background: var(--btn-primary-faded-bg);
+    border-color: var(--btn-primary-faded-border);
+
+}
+.btn-primary-faded.focus, .btn-primary-faded:focus, .btn-primary-faded:hover,#layers .lu-btn--primary:hover,#layers .lu-btn--primary:focus {
+    color: var(--btn-primary-faded-hover-color);
+    background-color: var(--btn-primary-faded-hover-bg);
+    border-color: var(--btn-primary-faded-hover-border);
+}
+
+#layers .lu-top{
+    box-shadow: var(--ui-block-shadow);
+}
+.vueDatatableTable .lu-top ,.lu-modal__content .lu-top{
+    box-shadow: none !important;
+    padding: 16px;
+}
+.affectpointers .lu-form-text,.usethisserver .lu-form-text{
+order: 2;
+}
+.affectpointers .lu-switch,.usethisserver .lu-switch{
+    order: 1;
+    margin-right: 10px;
+    margin-left: inherit !important;
+}
+.mxRecordsSettingsFormContainer .caption .caption-subject{
+    font-weight: 500;
+    font-size: 16px !important;
+}
+.affectpointers{
+    margin-top: 30px;
+}
+.iplabel,.userlabel{
+padding-right: 10px;
+font-weight: 400;
+}
+
+#layout01 #toast-container, #layers #toast-container{
+    z-index: 9999;
+}
+.border-none{
+    border: none !important;
+}
+.form-control-plaintext{
+    font-weight: 600;
+}
+
+.certificateentry label{
+padding-left: 20px !important;
+}
+.certificateentry input{
+    margin-left: -20px !important;
+}
+.UserManagerInfo_page_container{
+padding: 20px;
+}
+#userInfo .ui-form-submit{
+    display: none;
+}
+.child-row td{
+    padding-left: 50px !important;
+}
+#moveuserList [index="suspendButton"]{
+    display: none;
+}
+#moveuserListForm .lu-t-c__mass-actions.is-open{
+    display: none !important;
+}
+.ListResellerEdit_page_container,.ListResellerInfo_page_container{
+    padding: 20px;
+}
+
+.mgTableActions .lu-dropdown__header{
+display: none !important;
+}
+.mgTableActions .lu-dropdown__item .lu-btn{
+    justify-content: left !important;
+}
+.mgTableActions .lu-dropdown__item a{
+    padding: 0 15px !important
+}
+
+.SshKeyEdit_page_container{
+    padding: 20px;
+}
+#editSshKeyForm .checklabel{
+    margin-left: 10px;
+}
+
+#editSshKeyForm .checkbox-styled, #editSshKeyForm  .icheckbox_square-blue, #editSshKeyForm  .iradio_square-blue, #editSshKeyForm  .radio-styled{
+display: inline-block !important;
+}
+
+.lu-nav__link-text .small.help-text{
+    display: block;
+    /*color: #7ac678;*/
+}
+.is-active .lu-nav__link-text .small.help-text{
+    color: #7ac678;
+}
+
+#layers .BackupTransfer label.radio-inline{
+    display: inline-flex;
+}
+
+#backupschedule .swiper-wrapper .swiper-slide,#backupEdit .swiper-wrapper .swiper-slide,#mg-backupDirectory .swiper-wrapper .swiper-slide,#mg-backupFile .swiper-wrapper .swiper-slide{
+    flex-grow: 1;
+}
+
+.footeractionButtons,.footeractionButtons .right{
+    display: flex;
+    justify-content: space-between;
+}
+
+#backupschedule .input-checkbox .input-checkbox-control {
+    display: -webkit-box;
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #848da0;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+#processTable .lu-zmdi-refresh{
+    color: #fff;
+}
+[class*="fx:"] {
+    display: -webkit-box;
+    display: flex;
+}
+.badge.-theme-danger {
+    background: hsl(24deg 100% 89%);
+    color: hsl(24deg 100% 54%);
+    border-color: hsl(24deg 100% 54%);
+}
+.badge.-theme-safe {
+    background: hsl(141deg 43% 91%);
+    color: hsl(141deg 43% 63%);
+    border-color: hsl(141deg 43% 63%);
+}
+.badge.-theme-primary {
+    background: hsl(203deg 89% 93%);
+    color: hsl(203deg 89% 72%);
+    border-color: hsl(203deg 89% 72%);
+}
+.badge.-size-normal, .badge.-size-small {
+    padding: 0.5rem;
+}
+ .radius\:def.radius\:def {
+    border-radius: 4px;
+}
+.disp\:iblock.disp\:iblock {
+    display: inline-block;
+}
+.fxi\:grow\:true.fxi\:grow\:true {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+.fx\:cross\:center.fx\:cross\:center {
+    -webkit-box-align: center;
+    align-items: center;
+}
+.fx\:main\:start.fx\:main\:start {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+.fx\:wrap\:false.fx\:wrap\:false {
+    flex-wrap: nowrap;
+}
+
+
+
+#layers .CodeMirror pre{
+    padding: inherit !important;
+    background: inherit;
+    color: inherit;
+    font-size: inherit;
+    margin-bottom: inherit;
+}
+#layers #fileEdit .input-group{
+    display: block;
+}
+#layers #fileEdit pre{
+    overflow: hidden;
+}
+.CodeMirror {
+border: 1px solid #eee;
+}
+.CodeMirror-scroll {
+  height: auto;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+#layers #configurefirewall .lu-tiles{
+    justify-content: space-between;
+}
+#layers #configurefirewall .lu-tiles .lu-tile--btn{
+    cursor: pointer;
+}
+
+.cb-update-btns{
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+.CustomBuild #progressForm{
+    overflow: auto;
+    max-height: 400px;
+}
+
+#layers .CustomBuild label{
+    display: inherit;
+}
+
+.CustomBuild .panel-body .btn-group{
+    border-radius: 5px;
+    /*border: 1px solid #357ebd;*/
+}
+#layers  .CustomBuild .panel-body .btn-group label: first{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#layers  .CustomBuild .panel-body .btn-group label{
+    margin-bottom: 0;
+    height: auto;
+    padding: 4px 12px;
+}
+#layers  .CustomBuild .panel-body .btn-group label.active,#layers  .CustomBuild .panel-body .btn-group label:hover{
+    background: #357ebd;
+    color: #fff;
+}
+#layers  .CustomBuild .panel-body .btn-group label .radio-styled{
+    display: none;
+}
+
+#layers .CustomBuild .panel-body h5, #layers .CustomBuild .panel-body .lu-h5{
+    margin: 8px 0 ;
+}
+#layers .CustomBuild .panel-body  .btn-options {
+    color: #ffffff;
+    background-color: #999;
+    border-color: #357ebd;
+}
+#tokens-table{
+    overflow-x: auto;
+}
+#layers .lu-modal--xl .lu-modal__dialog {
+    width: 1024px;
+}
+
+.UserManagerInfo_page_container{
+    padding: 20px;
+}
+.cronul{
+        flex-direction: column;
+    }
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    #layers .lu-type-4 {
+        font-size: 20px !important;
+    }
+    #layers .lu-top__content{
+        overflow: hidden;
+    }
+    #layers .lu-nav--h {
+        flex-direction: column;
+    }
+    #layers .lu-p-r-4x {
+        padding-right: 5px !important;
+    }
+
+    #layers #modalTabtabAdminSetting .lu-switch + .lu-form-text{
+        width: 80%;
+    }
+    #layers #confTable .lu-top__toolbar{
+        flex-direction: column;
+    }
+
+    #layers .lu-mob-top-search .lu-top__toolbar .lu-input-group {
+        max-width: 150px;
+    }
+    #backupschedule .swiper-wrapper.lu-nav.lu-nav--md{
+        transform: none !important;
+    }
+    #backupschedule .lu-nav__item.swiper-slide.is-active .lu-nav__link:after{
+        display: none !important;
+    }
+    #contTabstep1 .checkbox-inline+.checkbox-inline, #contTabstep1 .radio-inline+.radio-inline{
+        margin-left: 0px;
+    }
+
+}
+@media (max-width: 751px){
+    #layers .lu-t-c__top .lu-top__toolbar .lu-has-dropdown .lu-btn .lu-btn__text {
+        display: block !important;
+    }
+}
+.cronul li{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#layers .lu-top__toolbar .lu-has-dropdown .lu-btn__icon{
+    color: #fff;
+}
+.skipsuspended{
+    margin-bottom: 0px !important;
+}
+
+#layers .lu-form-control{
+    line-height: 1.2;
+}
+
+.text-blue{
+color: var(--brand-danger);
+}
+
+.UserManagerEdit_page_container{
+    padding: 20px;
+}
+
+.lu-modal__top.lu-top .closeModal .lu-btn__icon{
+    color: #fff !important;
+}
+.lu-modal__top.lu-top .lu-text-faded {
+    color: #fff;
+}
+#layers .lu-modal__top{
+    background: var(--primary-block-bg-h);
+}
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+    background-color: #edf7ed;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+    background-color: #faebea;
+}
+.bs-callout-danger h4 {
+    color: #d9534f !important;
+}
+.bs-callout-success h4 {
+    color: #5cb85c !important;
+}

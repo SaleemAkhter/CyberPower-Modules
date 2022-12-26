@@ -1,0 +1,28 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-provisioning",
+  "name": "AwsEc2",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Amazon EC2",
+    "tagline": "Supply clients with Amazon EC2 instances and provide tools for their close supervision.",
+    "short": "Supply clients with Amazon EC2 instances and provide tools for their close supervision.",
+    "long": "Amazon EC2 For WHMCS is a module of highly practical nature which automates the provisioning as well as supervision of Amazon EC2 instances straight from your WHMCS.\n\nThe tool will empower your clients to perform the most essential actions on their owned servers. These include controlling the machine’s status, accessing full information on the server instance plus previewing the assigned IP addresses. As an administrator you will additionally gain the ability to freely modify the details of each product – from selecting the most suitable region to setting up a desired instance type and even an Amazon Machine Image."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "docs_url": "https://www.docs.modulesgarden.com/Amazon_EC2_For_WHMCS",
+    "homepage": "https://www.modulesgarden.com/products/whmcs/amazon-ec2",
+    "learn_more": "https://www.modulesgarden.com/products/whmcs/amazon-ec2#features",
+    "support_url": "https://www.modulesgarden.com/support"
+  },
+  "authors": [
+    {
+      "name": "ModulesGarden",
+      "homepage": "https://www.modulesgarden.com/"
+    }
+  ]
+}

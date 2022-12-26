@@ -1,0 +1,20 @@
+#layers .lu-widget__content .lu-list__item-title
+{
+    text-align: center;
+}
+
+#layers .lu-modal__content
+{
+    text-align: left;
+}
+
+.keyValueTableCustom table
+{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#layers .keyValueTableCustom .lu-preloader:before
+{
+    bottom: 50px !important;
+}

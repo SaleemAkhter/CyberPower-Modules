@@ -1,0 +1,5 @@
+class:
+    - {name: "\\ModulesGarden\\CloudBilling\\Core\\Http\\Request", method: "build",                        args: []}
+    - {name: '\\ModulesGarden\\CloudBilling\\Core\\Http\\View\\Smarty',  method: "get",                    args: [NULL,NULL]}
+    - {name: '\\ModulesGarden\\CloudBilling\\Core\\HandlerError\\Logger',  method: "get",                  args: ["default","debug.log","warning.log","error.log"]}
+    - {name: '\\ModulesGarden\\CloudBilling\\Core\\RegisterManager\\Register',  method: "getInstace",      args: []}

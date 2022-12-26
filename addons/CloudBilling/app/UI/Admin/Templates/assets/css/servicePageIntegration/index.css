@@ -1,0 +1,36 @@
+#layers #graph_expensesToEarnings.lu-widget {
+    min-height: 434px;
+}
+
+#layers #detailsList.lu-widget {
+    min-height: 411px;
+}
+
+#layers #detailsList.lu-widget .lu-widget__body {
+    max-height: 445px;
+    overflow-y: scroll;
+}
+
+#layers #userList.lu-widget {
+    min-height: 445px;
+}
+
+#layers #detailsList.lu-widget {
+    min-height: 445px;
+}
+
+#layers #userList.lu-widget thead {
+    display: none;
+}
+
+#layers #userList.lu-widget table {
+    margin-top: 0px!important;
+}
+
+#layers #userList.lu-widget .lu-widget__header {
+    border-bottom-width: 0px;
+}
+
+#layers #userList.lu-widget .lu-form-group {
+    margin-bottom: 0px;
+}

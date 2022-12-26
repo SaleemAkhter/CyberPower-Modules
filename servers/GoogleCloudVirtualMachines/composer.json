@@ -1,0 +1,44 @@
+{
+    "name": "modulesgarden/googlecloudvirtualmachines",
+    "description": "",
+    "version": "1.0.0",
+    "type": "project",
+    "license": "EULA",
+    "homepage": "https://www.modulesgarden.com",
+    "support":
+            {
+                "email": "contact@modulesgarden.com",
+                "issues": "https://www.modulesgarden.com/customers/support",
+                "forum": "https://www.forum.modulesgarden.com/"
+            },
+    "authors": [],
+    "require": {
+        "php": ">=5.5.9",
+        "piwik/ini": "^1.0",
+        "symfony/cache": "^3.3",
+        "mso/idna-convert": "1.*",
+        "adbario/php-dot-notation": "2.*",
+        "google/apiclient-services": "0.3",
+        "rappasoft/laravel-helpers": "^1.0",
+        "google/cloud-monitoring": "^1.0"
+    },
+    "replace": {
+        "symfony/http-foundation": "*",
+        "symfony/yaml": "*",
+        "symfony/dependency-injection": "*",
+        "symfony/console": "*",
+        "psr/simple-cache": "*",
+        "psr/log": "*",
+        "psr/cache": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ModulesGarden\\Servers\\GoogleCloudVirtualMachines\\Core\\": "./core",
+            "ModulesGarden\\Servers\\GoogleCloudVirtualMachines\\App\\": "./app",
+            "ModulesGarden\\Servers\\GoogleCloudVirtualMachines\\Packages\\": "./packages"
+        },
+        "files": [
+            "./core/Helper/Functions.php"
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+<softinstall xmlns="http://www.softaculous.com">
+	<settings>
+		<group>
+			<heading>{{site_set}}</heading>
+			<input type="text" name="system_name" size="30" value="Gibbon">
+				<head>{{system_name}}</head>
+			</input>
+			<input type="text" name="organisation_name" size="30" value="Organisation">
+				<head>{{organisation_name}}</head>
+			</input>
+			<input type="text" name="organisation_initials" size="30" value="Initials">
+				<head>{{organisation_initials}}</head>
+			</input>
+		</group>
+		<group>
+			<heading>{{ad_act}}</heading>
+			<input type="select"> 
+				<select name="title">
+				<option value=""></option>
+				<option value="Ms. ">Ms.</option>
+				<option value="Miss ">Miss</option>
+				<option value="Mr. " selected="selected">Mr.</option>
+				<option value="Mrs. ">Mrs.</option>
+				<option value="Dr. ">Dr.</option>
+				</select>
+				<head>{{title}}</head>
+			</input>
+			<input type="text" name="sname" size="30" value="Administrator">
+				<head>{{s_name}}</head>
+			</input>
+			<input type="text" name="fname" size="30" value="System">
+				<head>{{f_name}}</head>
+			</input>
+			<input type="text" name="admin_email" size="30" value="admin" softmail="true">
+				<head>{{ad_email}}</head>
+				<handle>__email_address</handle>
+			</input>
+			<input type="text" name="admin_username" size="30" value="admin">
+				<head>{{ad_name}}</head>
+			</input>
+			<input type="text" name="admin_pass" size="30" value="Password1">
+				<head>{{ad_pass}}</head>
+				<handle>__admin_pass</handle>
+			</input>			
+		</group>
+	</settings>
+	<db>mysql</db>
+	<files>
+		<exclude>installer/*</exclude>
+		<exclude>installer/*/*</exclude>
+		<exclude>installer/*/*/*</exclude>
+		<exclude>installer/*/*/*/*</exclude>
+		<exclude>installer/*/*/*/*/*</exclude>
+	</files>
+</softinstall>

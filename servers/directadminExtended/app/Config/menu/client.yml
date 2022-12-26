@@ -1,0 +1,201 @@
+mg-provisioning-module:
+    icon: 'fa-cog'
+    order: 25
+    children:
+        applications:
+            order: 2
+        addonDomains:
+            order: 1
+        backups:
+            order: 3
+        databases:
+            order: 4
+        dnsManage:
+            order: 5
+        fileManager:
+            order: 6
+        ftp:
+            order: 7
+        hotlinkProtection:
+            order: 8
+        perlModules:
+            order: 9
+        subdomains:
+            order: 10
+        siteSummary:
+            order: 11
+        
+
+
+email-management:
+    icon: 'fa-envelope'
+    order: 30
+    children:
+        autoresponders:
+            order: 1
+        catchEmails:
+            order: 2
+        emails:
+            order: 3
+        emailForwarders:
+            order: 4
+        mailingLists:
+            order: 5
+        spamFilters:
+            order: 6
+        spamAssasin:
+            order: 7
+        vacation:
+            order: 8
+        mxrecords:
+            order: 9
+
+advanced-features:
+    icon: 'fa-cogs'
+    order: 35
+    children:
+        apacheHandlers:
+            order: 1
+        cron:
+            order: 2
+        domainPointers:
+            order: 4
+        errorPages:
+            order: 3
+        protectedDirectories:
+            order: 5
+        siteRedirection:
+            order: 5
+        ssh:
+            order: 7
+        ssl:
+            order: 8
+        wordPressManager:
+            order: 9
+reseller-account-management:
+    icon: 'fa-cogs'
+    order: 36
+    children:
+        users:
+            order: 1
+        packages:
+            order: 2
+        ipManagement:
+            order: 3
+        changePasswords:
+            order: 4
+        nameservers:
+            order: 5
+admin-account-manager:
+    icon: 'fa-cogs'
+    order: 37
+    children:
+        add-new-user:
+            order: 1
+        user_manager:
+            order: 2
+        my_users:
+            order: 3
+        user_packages:
+            order: 4
+        move_between_resellers:
+            order: 5
+        edit_user_message:
+            order: 6
+        create_reseller:
+            order: 7
+        list_reseller:
+            order: 8
+        reseller_packages:
+            order: 9
+        create_admin:
+            order: 10
+        list_admins:
+            order: 11
+        suspension_message:
+            order: 12
+admin-server-manager:
+    icon: 'fa-cogs'
+    order: 38
+    children:
+        settings:
+            order: 1
+        httpd_config:
+            order: 2
+        dns_manager:
+            order: 3
+        ip_manager:
+            order: 4
+        nameservers:
+            order: 5
+        multiserver_setup:
+            order: 6
+        php_config:
+            order: 7
+        ssh_key:
+            order: 8
+admin-tools:
+    icon: 'fa-cogs'
+    order: 39
+    children:
+        backup_transfer:
+            order: 1
+        brute_force_monitor:
+            order: 2
+        process_monitor:
+            order: 3
+        mail_queue:
+            order: 4
+        service_monitor:
+            order: 5
+        system_backup:
+            order: 6
+        message:
+            order: 7
+admin-system-info:
+    icon: 'fa-cogs'
+    order: 39
+    children:
+        cron:
+            order: 1
+        file_manager:
+            order: 2
+        file_editor:
+            order: 3
+        sys_info:
+            order: 4
+        log_viewer:
+            order: 5
+        usage_stats:
+            order: 6
+admin-advanced-features:
+    icon: 'fa-cogs'
+    order: 39
+    children:
+        plugin_manager:
+            order: 1
+        firewall:
+            order: 2
+        custom_build:
+            order: 3
+admin-support:
+    icon: 'fa-cogs'
+    order: 39
+    children:
+        tickets:
+            order: 1
+        updates:
+            order: 2
+
+one-click-login:
+    icon: 'fa-reply'
+    order: 40
+    children:      
+        directAdmin:
+            order: 1
+        webmail:
+            order: 4
+        phpmyadmin:
+            order: 2
+        sitepad:
+            order: 3

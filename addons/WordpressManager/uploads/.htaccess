@@ -1,0 +1,6 @@
+Order Allow,Deny
+Deny from all
+<FilesMatch ".(zip)$">
+Order Deny,Allow
+    Allow from all
+</FilesMatch>

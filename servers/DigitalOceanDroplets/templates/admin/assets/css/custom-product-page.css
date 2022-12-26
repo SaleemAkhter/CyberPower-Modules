@@ -1,0 +1,25 @@
+.configOption {
+    border-bottom: 1px solid #edeff2;
+    padding: 8px; 
+    height: 48px;
+}
+
+.configOptionButton {
+    padding: 8px;
+}
+
+#layers .lu-preloader-container--full-screen-custom {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: 999;
+}
+#layers .lu-preloader-container--full-screen-custom {
+    background: rgba(255,255,255, 0.86);
+
+}
+

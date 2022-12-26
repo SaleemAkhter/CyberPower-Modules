@@ -1,0 +1,5 @@
+- \ModulesGarden\OvhVpsAndDedicated\Core\Lang\Lang
+- \ModulesGarden\OvhVpsAndDedicated\Core\App\Controllers\Instances\Addon\Config
+- \ModulesGarden\OvhVpsAndDedicated\Core\UI\Widget\Sidebar\SidebarService
+- \ModulesGarden\OvhVpsAndDedicated\Core\Helper\WhmcsParams
+- \ModulesGarden\OvhVpsAndDedicated\Core\App\AppParamsContainer

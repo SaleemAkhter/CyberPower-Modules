@@ -1,0 +1,5 @@
+version: '1.0.0'
+systemName: 'VultrVps'
+name: 'Vultr VPS'
+description: 'Vultr VPS For WHMCS.<br>For more info visit our <a href="http://www.docs.modulesgarden.com/CHANGE_ME" style="color: #4169E1;" target="_blank">Wiki</a>.'
+author: '<a href="http://www.modulesgarden.com" targer="_blank">ModulesGarden</a>'

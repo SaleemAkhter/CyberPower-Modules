@@ -1,0 +1,23 @@
+{
+    "authors": [
+        {
+            "name": "Mateusz Tomaszewski",
+            "email": "mateusz.to@modulesgarden.com"
+        }
+    ],
+    "require" : {
+	"facebook/php-sdk-v4" : "~5.0",
+	"google/apiclient": "1.0.*@beta",
+        "linkedinapi/linkedin": "^1.1",
+        "simplon/twitter": "*",
+        "cosenary/instagram": "dev-master"
+    },
+    "config": {
+            "vendor-dir": "ThirdParty"
+    },
+    "autoload": {
+        "psr-0": {
+            "ThirdParty":        "ThirdParty/"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "modulesgarden/hetznervps",
+    "description": "",
+    "version": "1.1.0",
+    "type": "project",
+    "license": "EULA",
+    "homepage": "http://www.modulesgarden.com",
+    "support":
+            {
+                "email": "contact@modulesgarden.com",
+                "issues": "http://www.modulesgarden.com/customers/support",
+                "forum": "http://www.forum.modulesgarden.com/"
+            },
+    "authors": [],
+    "require":
+            {
+                "php": ">=5.9.9",
+                "maximebf/debugbar": "^1.13",
+                "piwik/ini": "^1.0",
+                "symfony/cache": "^3.3",
+                "mustangostang/spyc": "^0.5.1",
+                "mso/idna-convert": "1.*",
+                "adbario/php-dot-notation": "2.*",
+                "lkdevelopment/hetzner-cloud-php-sdk": "2.2.1",
+        "rappasoft/laravel-helpers": "^1.0"
+            },
+    "replace":
+            {
+                "symfony/http-foundation": "^3.3",
+                "symfony/yaml": "^3.3",
+                "symfony/dependency-injection": "^3.3",
+                "guzzlehttp/guzzle": "*"
+            },
+    "autoload": {
+        "psr-4": {
+            "ModulesGarden\\Servers\\HetznerVps\\App\\": "./app",
+            "ModulesGarden\\Servers\\HetznerVps\\Core\\": "./core",
+            "ModulesGarden\\Servers\\HetznerVps\\Packages\\": "./packages"
+        },
+        "files": ["./core/Helper/Functions.php"]
+    }            
+}

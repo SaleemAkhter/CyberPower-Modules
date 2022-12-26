@@ -1,0 +1,7 @@
+version: '3.7.0'
+systemName: 'DirectAdminExtended'
+name: 'DirectAdmin Extended'
+description: 'Use DirectAdmin Extended functionalities to simplify the process of web site hosting without the need to log in to DirectAdmin.<br>For more info visit our <a href="http://www.docs.modulesgarden.com/DirectAdmin_Extended_For_WHMCS" style="color: #4169E1;" target="_blank">Wiki</a>.'
+clientareaName: 'DirectAdmin Extended'
+author: '<a href="http://www.modulesgarden.com" targer="_blank">ModulesGarden</a>'
+moduleIcon: 'directadmin_extended'

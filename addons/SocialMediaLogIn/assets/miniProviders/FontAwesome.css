@@ -1,0 +1,114 @@
+ .btn-media-mini {
+        position: relative;
+        padding-left: 44px;
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 34px;
+        width: 34px;
+        padding: 0;
+        color: #000;
+        background-color: transparent;
+    }
+    .btn-media-mini :first-child {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        width: 32px;
+        line-height: 34px;
+        font-size: 1.6em;
+        text-align: center;
+    }
+    @font-face {
+      font-family: 'FontAwesomeSocial';
+      src: url('../../../SocialMediaLogIn/templates/clientarea/provider/font/fontawesome-webfont.eot?v=4.6.3');
+      src: url('../../../SocialMediaLogIn/templates/clientarea/provider/font/fontawesome-webfont.eot?#iefix&v=4.6.3') format('embedded-opentype'), url('../../../SocialMediaLogIn/templates/clientarea/provider/font/fontawesome-webfont.woff2?v=4.6.3') format('woff2'), url('../../../SocialMediaLogIn/templates/clientarea/provider/font/fontawesome-webfont.woff?v=4.6.3') format('woff'), url('../../../SocialMediaLogIn/templates/clientarea/provider/font/fontawesome-webfont.ttf?v=4.6.3') format('truetype'), url('../../../SocialMediaLogIn/templates/clientarea/provider/font/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');      
+      font-weight: normal;
+      font-style: normal;
+    }
+    .fa2 {
+      display: inline-block;
+      font: normal normal normal 14px/1 FontAwesomeSocial;
+      font-size: inherit;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    .fa-disqus, .fa-vk{
+        top: -1px !important;
+    }
+    
+    .fa-disqus::before {
+        font-family: "Arial Black", Gadget, sans-serif;
+        color: black;
+        content: "D";
+        color: inherit;
+        
+    }
+    .fa-vk::before {
+        content: "\f189";
+    }
+    
+    .fa-vimeo::before {
+        content: "\f27d";
+    }
+    
+    .fa-windows::before {
+        content: "\f17a";
+        position: absolute;
+        left: 5px;
+        bottom: 0.1px;
+    }
+    
+    .fa-facebook::before {
+        content: "\f09a";
+    }
+    .fa-google::before {
+        content: "\f1a0";
+    }
+    .fa-linkedin::before {
+        content: "\f0e1";
+    }
+    .fa-twitter::before {
+        content: "\f099";
+    }
+    .fa-wordpress::before {
+        content: "\f19a";
+    }
+    .fa-amazon::before {
+        content: "\f270";
+    }
+    .fa-dropbox::before {
+        content: "\f16b";
+    }
+    .fa-github::before {
+        content: "\f09b";
+    }
+    .fa-instagram::before {
+        content: "\f16d";
+    }
+    .fa-paypal::before {
+        content: "\f1ed";
+    }
+    .fa-reddit::before {
+        content: "\f1a1";
+    }
+    .fa-tumblr::before {
+        content: "\f173";
+    }
+    .fa-yahoo::before {
+        content: "\f19e";
+    }
+    .fa-pinterest::before {
+        content: "\f0d2";
+    }
+    .fa-stripe::before {
+        content: "\f1f5";
+    }
+    .fa-twitch::before {
+        content: "\f1e8";
+    }
+    

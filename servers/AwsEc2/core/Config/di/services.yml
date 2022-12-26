@@ -1,0 +1,5 @@
+- \ModulesGarden\Servers\AwsEc2\Core\Lang\Lang
+- \ModulesGarden\Servers\AwsEc2\Core\App\Controllers\Instances\Addon\Config
+- \ModulesGarden\Servers\AwsEc2\Core\UI\Widget\Sidebar\SidebarService
+- \ModulesGarden\Servers\AwsEc2\Core\Helper\WhmcsParams
+- \ModulesGarden\Servers\AwsEc2\Core\App\AppParamsContainer

@@ -1,0 +1,28 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-gateways",
+    "name": "PayME",
+    "license": "proprietary",
+    "category": "payments",
+    "description": {
+      "name": "PayMe",
+      "tagline": "PayMe is the #1 most recognised and widely used payment gateway.",
+      "long": "PayMe is the fast, easy, secure way to accept credit cards and PayPal online.",
+      "features": [
+        "Automatic recurring subscription billing",
+        "Subscription management automation & one-click refunds",
+        "Integrates with PayMe Website Payments Standard"
+      ]
+    },
+    "support": {
+      "homepage": "https:\/\/www.paymeservice.com\/",
+      "docs_url": "https:\/\/https://paymeapi.docs.apiary.io\/"
+    },
+    "authors": [
+      {
+        "name": "Arslan ud Din Shafiq",
+        "homepage": "https:\/\/www.itdevsols.com\/"
+      }
+    ]
+  }
+  

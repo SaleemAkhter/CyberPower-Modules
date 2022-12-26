@@ -1,0 +1,31 @@
+{
+
+    "schema": "1.0",
+    "type": "whmcs-provisioning",
+    "name": "CloudBilling",
+    "license": "proprietary",
+    "category": "payments",
+    "description": {
+        "name": "Cloud Billing",
+        "tagline": "Introduce a full customer billing solution for management of AWS, Google Cloud and Microsoft Azure services.",
+        "short": "Introduce a full customer billing solution for management of AWS, Google Cloud and Microsoft Azure services.",
+        "long": "Cloud Billing For WHMCS is a powerful billing solution designed specifically for WHMCS that will let you introduce an effective customer billing model for the management of the world-famous cloud computing services powered by Amazon Web Services, Google Cloud and Microsoft Azure.The module will allow you to connect numerous services with a single WHMCS account in two alternative ways - either with your own account where all services of your customers will be stored, or with customers' accounts, thus keeping their management separated. After setting up percentage billing margins for the selected services along with the preferred billing method, your clients will be charged automatically, according to the set fees, on the first or last day of the month, or at the time of invoice generation. Apart from that, you will be offered the opportunity to access several personalized graphs tracking your expenses, earnings, as well as resource usage, while your customers, on the other hand, will easily view their current and upcoming costs per particular service."},
+    "logo": {
+        "filename": "logo.png"
+    },
+    "support": {
+        "homepage": "https://www.modulesgarden.com/products/whmcs/cloud-billing",
+        "learn_more": "https://www.modulesgarden.com/products/whmcs/cloud-billing#features",
+        "support_url": "https://www.modulesgarden.com/support",
+        "docs_url": "https://www.docs.modulesgarden.com/Cloud_Billing_For_WHMCS"
+
+    },
+    "authors": [
+        {
+            "name": "ModulesGarden",
+            "homepage": "https://www.modulesgarden.com/"
+        }
+    ]
+
+
+}

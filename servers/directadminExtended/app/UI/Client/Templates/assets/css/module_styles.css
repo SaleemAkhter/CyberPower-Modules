@@ -1,0 +1,122 @@
+#layers .lu-input-group .selectize-control{
+    width: 100%;
+}
+
+#addForm[namespace=ModulesGarden_Servers_DirectAdminExtended_App_UI_Client_SiteRedirection_Forms_Add] .selectize-control{
+    width: auto!important;
+}
+
+#addForm[namespace=ModulesGarden_Servers_DirectAdminExtended_App_UI_Client_SiteRedirection_Forms_Add] input[name=destination]{
+    padding-left: 0 !important;
+}
+
+#layers .lu-modal {
+    display:  grid!important;
+}
+
+#layers .lu-data-picker {
+
+}
+
+/* Data Picker styles*/
+
+
+#layers .lu-data-picker {
+    border: 0px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.15);
+}
+#layers .lu-data-picker span.selected{
+    color: #fff;
+    background: #2368AD;
+    transition: border linear 0.3s;
+    border-radius: 3px;
+}
+
+#layers .lu-data-picker span.cell:not(.blank):not(.disabled).day:hover,
+#layers .lu-data-picker span.cell:not(.blank):not(.disabled).month:hover,
+#layers .lu-data-picker span.cell:not(.blank):not(.disabled).year:hover
+{
+    color: #2368AD;
+    border: 1px solid #2368AD;
+    transition: border linear 0.3s;
+    border-radius: 3px;
+}
+#layers .lu-form-group .lu-input-data-picker {
+    background: #ffffff;
+    padding: 0 0px 0px 10px;
+}
+/* End of Data Picker styles*/
+
+
+
+/* Dropdown button display in one line in datatable with other buttons */
+#layers table>tbody>tr>td>div.lu-has-dropdown {
+    display: inline;
+    /*transform: translateX(calc(36px - 100%)) translateY(5px);*/
+}
+
+#layers table>tbody>tr>td>div.lu-has-dropdown .lu-drop-element{
+    transform: translateX(-16px) translateY(5px);
+    right: 0px;
+}
+
+/* End of Dropdown button display in one line in datatable with other buttons */
+
+
+
+#layers .lu-form-group .password-strength--error,
+#layers .lu-form-group .password-strength--error:hover{
+    border-bottom: solid 2px #c9302c;
+}
+#layers .lu-form-group .password-strength--danger,
+#layers .lu-form-group .password-strength--danger:hover{
+    border-bottom: solid 2px #d9534f;
+}
+#layers .lu-form-group .password-strength--warning,
+#layers .lu-form-group .password-strength--warning:hover{
+    border-bottom: solid 2px #ec971f;
+}
+#layers .lu-form-group .password-strength--correct,
+#layers .lu-form-group .password-strength--correct:hover{
+    border-bottom: solid 2px #5cb85c;
+}
+#layers .lu-form-group .password-strength--success,
+#layers .lu-form-group .password-strength--success:hover{
+    border-bottom: solid 2px #449d44;
+}
+
+
+#layers-body .lu-dropdown__link--danger:hover,
+#layers-body .lu-dropdown__link--danger:hover > .lu-dropdown__link-icon,
+#layers .lu-dropdown__link--danger:hover,
+#layers .lu-dropdown__link--danger:hover > .lu-dropdown__link-icon,
+#layers .lu-dropdown__link--danger:hover > span {
+    color: #F55656 !important;
+    text-decoration: none;
+}
+
+#layers .lu-has-dropdown .drop-content .lu-dropdown__item a.lu-dropdown__link--danger:hover,
+#layers .lu-has-dropdown .drop-content .lu-dropdown__item .lu-dropdown__link--danger .lu-preloader:before{
+    border-top-color: #F55656 !important;
+}
+
+#layers .lu-input-group .selectize-control .selectize-dropdown {
+    width: fit-content!important;
+    min-width: 100%;
+}
+
+#layers .lu-row .custom-modal-section {
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+#layers .lu-row .custom-modal-section .lu-input-group .selectize-control{
+    width: auto;
+}
+
+#letsEncryptForm #entriesSectionRaw
+{
+    height: 400px;
+    overflow-y: scroll
+}
+

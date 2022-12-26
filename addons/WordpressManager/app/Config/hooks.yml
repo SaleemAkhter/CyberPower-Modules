@@ -1,0 +1,4 @@
+name:
+    ClientAreaPrimarySidebar: true,
+    ServiceEdit: true,
+    AfterModuleCreate: true

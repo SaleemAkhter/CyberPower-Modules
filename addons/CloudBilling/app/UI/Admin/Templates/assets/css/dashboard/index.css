@@ -1,0 +1,94 @@
+
+#layers #graph_expensesToEarnings.lu-widget {
+    min-height: 434px;
+}
+
+#layers #lastInvoices .lu-t-c__top.lu-top.mob-top-search {
+    display: none;
+}
+
+#layers #bestClients .lu-t-c__top.lu-top.mob-top-search {
+    display: none;
+}
+
+#layers #lastInvoices.lu-widget .lu-widget__body {
+    min-height: 445px;
+}
+
+#layers #lastInvoices.lu-widget .lu-widget__body {
+    max-height: 445px;
+    overflow-y: scroll;
+}
+
+#layers #bestClients.lu-widget .lu-widget__body {
+    min-height: 445px;
+}
+
+#layers #bestClients.lu-widget .lu-widget__body {
+    max-height: 445px;
+    overflow-y: scroll;
+}
+
+#layers .slide-fade-enter-active {
+    transition: all .3s ease;
+}
+#layers .slide-fade-leave-active {
+    transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+#layers .slide-fade-enter, .slide-fade-leave-to
+    /* .slide-fade-leave-active below version 2.1.8 */ {
+    transform: translateY(-20px);
+    opacity: 0;
+}
+
+#layers #configurationHints h6 i {
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    color: inherit;
+    font-size: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+
+
+#layers #configurationHints hr {
+    margin: 5px 0px 5px 0px;
+}
+
+#layers #configurationHints .lu-hint--success hr {
+    color: #62CA5F;
+    border-bottom: 1px solid #62CA5F;
+}
+#layers #configurationHints .lu-hint--danger hr {
+    color: #F55656;
+    border-bottom: 1px solid #F55656;
+}
+
+#layers #configurationHints h6 {
+    margin: 0 0 5px 0;
+    color: #F55656;
+}
+
+#layers #configurationHints .lu-hint--success h6{
+    color: #62CA5F;
+}
+
+#layers #configurationHints .lu-hint--danger h6{
+    color: #F55656;
+}
+
+
+#layers #configurationHints .lu-hint--success h6 {
+    margin: 0 0 5px 0;
+    color: #62CA5F;
+}
+
+#layers #configurationHints .hide-config-hints-button {
+    margin-top: 12px;
+}
+
+#layers #configurationHints .lu-alert{
+    margin-bottom: 5px;
+}

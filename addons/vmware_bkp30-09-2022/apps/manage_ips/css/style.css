@@ -1,0 +1,8 @@
+table#employeetable td {
+    word-break: break-all;
+}
+input.testconnection {
+    background: #27c527;
+    border: 1px solid #27c527;
+    color: #fff;
+}

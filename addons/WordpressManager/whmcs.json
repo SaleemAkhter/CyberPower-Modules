@@ -1,0 +1,30 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "WordpressManager",
+  "license": "proprietary",
+  "category": "webhosting",
+  "description": {
+    "name": "WordPress Manager",
+    "tagline": "Let your clients manage WordPress instances in your WHMCS, browse and install plugins, create backups and make bulk changes on them.",
+    "long": "WordPress Manager For WHMCS will provide your clients with a sought-after capability to install and manage WordPress instances in detail without the bother of ever leaving your WHMCS. Simply pick cPanel, DirectAdmin or Plesk hosting products that shall be equipped with WordPress-aimed tools to let your customers remotely add either clean installations or custom installation scripts, and control the focal features of those already in use. They will be welcome to not only keep track of assorted installation details but essentially, browse through and handle plugins to be activated, manage themes and assign them into packages, generate backups, plus perform system updates. Along with it, clients will gain the possibility to automatically upgrade WordPress installations, plugins, and themes, as well as create staging WordPress instances for testing purposes to be pushed live at any later moment. On the other hand, you will be in power to activate the automatic installation of WordPress once a new service is created. The module will also allow quick access to the control panel and cache clearing, one-click installation of Let's Encrypt SSL certificates, not to mention a swift mechanism to clone the installation to a different domain. ",
+    "features": [
+
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "marketplace": {
+    "url": "https:\/\/marketplace.whmcs.com\/product\/4107"
+  },
+  "support": {
+    "docs_url": "https:\/\/docs.modulesgarden.com/WordPress_Manager_For_WHMCS"
+  },
+  "authors": [
+    {
+      "name": "ModulesGarden",
+      "homepage": "https:\/\/www.modulesgarden.com\/"
+    }
+  ]
+}

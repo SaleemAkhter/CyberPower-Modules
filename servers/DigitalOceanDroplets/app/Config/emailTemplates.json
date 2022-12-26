@@ -1,0 +1,18 @@
+{
+    "emails": [
+        {
+            "type": "product",
+            "custom": 1,
+            "name": "Digital Ocean Create Email",
+            "subject": "Digital Ocean Create Droplet",
+            "message": "<p>Your new Droplet is all set to go! You can access it using the following credentials:</p><p>Droplet Name: {$droplet_name} <br /> User Name: {$droplet_user} <br /> Password: {$droplet_password} <br /> IP Address: {$service_dedicated_ip}</p>"
+        },
+        {
+            "type": "product",
+            "custom": 1,
+            "name": "Digital Ocean Password Reset Email",
+            "subject": "Digital Ocean Password Reset",
+            "message": "<p>Your Droplet's password has been reset</p><p>Droplet Name: {$droplet_name} <br /> Password: {$droplet_password}</p>"
+        }
+    ]
+}

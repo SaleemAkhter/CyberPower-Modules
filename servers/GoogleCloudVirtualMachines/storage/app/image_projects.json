@@ -1,0 +1,15 @@
+{
+  "custom-images": "Custom Images",
+  "centos-cloud": "CentOS",
+  "cos-cloud": "Container Optimized OS",
+  "coreos-cloud": "Core OS",
+  "debian-cloud": "Debian",
+  "ml-images":  "Deep Learning on Linux",
+  "rhel-cloud": "Red Hat Enterprise Linux",
+  "rhel-sap-cloud": "Red Hat Enterprise Linux for SAP",
+  "windows-sql-cloud": "SQL Server on Windows Server",
+  "suse-cloud": "SUSE Linux Enterprise Server",
+  "suse-sap-cloud": "SUSE Linux Enterprise Server for SAP",
+  "ubuntu-os-cloud": "Ubuntu",
+  "windows-cloud": "Windows Server"
+}

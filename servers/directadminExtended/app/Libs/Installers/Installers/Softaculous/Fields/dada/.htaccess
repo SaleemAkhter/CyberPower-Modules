@@ -1,0 +1,9 @@
+DirectoryIndex mail.cgi index.php index.html
+
+# See: http://dadamailproject.com/d/features-restful_web_services.pod.html
+# The below line may need to be uncommented too allow Web Services to work:
+# SetEnvIf Authorization .+ HTTP_AUTHORIZATION=$0
+
+<IfModule mod_alias.c>
+RedirectMatch 301 ^[[relativeurl]]/$ [[softurl]]/mail.cgi
+</IfModule>

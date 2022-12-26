@@ -1,0 +1,28 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-provisioning",
+  "name": "VultrVps",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "Vultr VPS",
+    "tagline": "Supply Vultr servers to your clients in a fully automated manner, allow remote management of the products from the WHMCS client area.",
+    "short": "Supply Vultr servers to your clients in a fully automated manner, allow remote management of the products from the WHMCS client area.",
+    "long": "Vultr VPS For WHMCS is a module cleverly designed to automate the provisioning as well as all routine tasks in the management of Vultr servers. Having a free choice from a range of configurable options, your clients will easily order products perfectly fitting their needs. The module has been designed to let your customers control the status of each obtained instance, rebuild it with a distribution of a selected operating system, or even access the remote console. Owing to the number of components implemented into the client area, your customers will be supplied with a handy toolkit necessary to remotely perform the most essential actions on owned VPS servers, such as management of backups or creating snapshots of machines. Another plus factor for your customers is the option to choose among available images to rebuild their machines. All that is available just under the roof of your WHMCS system."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https://www.modulesgarden.com/products/whmcs/vultr-vps",
+    "learn_more": "https://www.modulesgarden.com/products/whmcs/vultr-vps#features",
+    "support_url": "https://www.modulesgarden.com/support",
+    "docs_url": "https://www.docs.modulesgarden.com/Vultr_VPS_For_WHMCS"
+  },
+  "authors": [
+    {
+      "name": "ModulesGarden",
+      "homepage": "https://www.modulesgarden.com/"
+    }
+  ]
+}

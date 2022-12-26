@@ -1,0 +1,23 @@
+actions:
+  name: Actions
+  hasSubmenu: true
+  actions-control-panel:
+    name: Control Panel
+  actions-clear-cache:
+    name: Clear Cache
+  actions-clone:
+    name: Clone
+  actions-installation-update-button:
+    name: Update
+  actions-change-domain:
+    name: Change Domain
+  actions-manage-auto-upgrade:
+    name: Manage Auto Upgrade
+  actions-staging:
+    name: Set to Staging
+  actions-push-to-live:
+    name: Push to Live
+  actions-ssl:
+    name: Ssl
+  actions-instance-image:
+    name: Instance Image

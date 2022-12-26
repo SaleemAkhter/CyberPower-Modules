@@ -1,0 +1,12 @@
+On Installation add page change database field
+Add Breadcrumbs on all
+Add 3 dots
+Add header image and text
+Check How Plugins and Themes work from admin side
+How Instance Image works ?
+How Custom themes and Custom Plugins works ?
+How are we going to implement Sets from Softaculous
+
+Redirect user to installation list after installation successful
+
+

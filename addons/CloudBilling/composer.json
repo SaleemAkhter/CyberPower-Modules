@@ -1,0 +1,58 @@
+{
+    "name": "modulesgarden/cloudbilling",
+    "description": "",
+    "version": "2.1.0",
+    "type": "project",
+    "license": "EULA",
+    "homepage": "https://www.modulesgarden.com",
+    "support":
+            {
+                "email": "contact@modulesgarden.com",
+                "issues": "https://www.modulesgarden.com/customers/support",
+                "forum": "https://www.forum.modulesgarden.com/"
+            },
+    "authors": [],
+    "require":
+            {
+                "php": ">=5.5.9",
+                "piwik/ini": "1.0.6",
+                "symfony/cache": "3.4.20",
+                "mso/idna-convert" : "1.1.0",
+                "adbario/php-dot-notation" : "2.1.0",
+                "symfony/polyfill-apcu" : "1.10.0",
+                "rappasoft/laravel-helpers": "^1.0",
+                "google/cloud-bigquery": "v1.20.0"
+            },
+    "replace": {
+            "symfony/dependency-injection": "*",
+            "symfony/http-foundation": "*",
+            "symfony/yaml": "*",
+            "psr/log" : "*",
+            "psr/cache" : "*",
+            "psr/simple-cache" : "*",
+            "psr/container" : "*",
+            "symfony/polyfill-mbstring" : "*",
+            "symfony/polyfill-php70" : "*",
+            "google/auth": "*",
+            "guzzlehttp/guzzle": "*",
+            "guzzlehttp/promises": "*",
+            "guzzlehttp/psr7": "*",
+            "monolog/monolog": "*",
+            "symfony/polyfill-ctype": "*",
+            "ramsey/collection": "*",
+            "ramsey/uuid": "*",
+            "ralouphie/getallheaders": "*",
+            "psr/http-message": "*",
+            "brick/math": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ModulesGarden\\CloudBilling\\Core\\": "./core",
+            "ModulesGarden\\CloudBilling\\App\\": "./app",
+            "ModulesGarden\\CloudBilling\\Packages\\": "./packages"
+        },
+        "files": [
+            "./core/Helper/Functions.php"
+        ]
+    }
+}

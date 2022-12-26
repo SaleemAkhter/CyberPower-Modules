@@ -1,0 +1,12 @@
+Service Details Overview:       
+Service Details Actions: []
+mg-provisioning-module:
+    icon: 'fa-cog'
+    order: 25
+    children:
+        snapshot:
+            order: 1
+            validate: 'clientAreaSnapshot'
+        graph:
+            order: 2
+            validate: 'clientAreaGraph'

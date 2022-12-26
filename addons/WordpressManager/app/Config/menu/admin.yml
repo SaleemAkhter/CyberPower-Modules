@@ -1,0 +1,25 @@
+home: 
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-home'
+products:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-settings'
+Plugins:
+        icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-widgets'
+        submenu:
+            pluginPackages: []
+            customs: []
+Themes:
+        icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-view-web'
+        submenu:
+            themePackages: []
+            customs: []
+InstanceImage:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-group-work'
+LoggerManager:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-assignment'
+    submenu:
+        logs: []
+        jobs: []
+        settings: []
+documentation:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-file-text'
+    externalUrl: "http://www.docs.modulesgarden.com/WordPress_Manager_For_WHMCS"

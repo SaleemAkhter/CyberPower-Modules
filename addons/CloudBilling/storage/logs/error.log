@@ -1,0 +1,148 @@
+24.06.2019 15:35:09 - Token: c0decaba7c3c79393b21822de7ecc094 - array (
+  'errno' => 0,
+  'errstr' => 'Call to undefined function ModulesGarden\\ModuleFramework\\Core\\App\\validateAdminTicketAccess()',
+  'errfile' => '/var/www/whmcs/modules/addons/ModuleFramework/core/App/Application.php',
+  'errline' => 58,
+  'errcontext' => 
+  array (
+    0 => 
+    array (
+      'file' => '/var/www/whmcs/modules/addons/ModuleFramework/core/App/Application.php',
+      'line' => 26,
+      'function' => 'getControllerClass',
+      'class' => 'ModulesGarden\\ModuleFramework\\Core\\App\\Application',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 'ModuleFramework_config',
+      ),
+    ),
+    1 => 
+    array (
+      'file' => '/var/www/whmcs/modules/addons/ModuleFramework/core/App/AppContext.php',
+      'line' => 34,
+      'function' => 'run',
+      'class' => 'ModulesGarden\\ModuleFramework\\Core\\App\\Application',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 'ModuleFramework_config',
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    2 => 
+    array (
+      'file' => '/var/www/whmcs/modules/addons/ModuleFramework/ModuleFramework.php',
+      'line' => 26,
+      'function' => 'runApp',
+      'class' => 'ModulesGarden\\ModuleFramework\\Core\\App\\AppContext',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 'ModuleFramework_config',
+      ),
+    ),
+    3 => 
+    array (
+      'file' => '/var/www/whmcs/admin/addonmodules.php',
+      'line' => 0,
+      'function' => 'ModuleFramework_config',
+      'args' => 
+      array (
+      ),
+    ),
+  ),
+)
+24.06.2019 15:46:52 - Token: 4448f311a6d13a188d62471a9b0585f5 - array (
+  'errno' => 0,
+  'errstr' => 'Call to undefined method ModulesGarden\\ModuleFramework\\Core\\App\\AppParamsContainer::getConfig()',
+  'errfile' => '/var/www/whmcs/modules/addons/ModuleFramework/core/Traits/AppParams.php',
+  'errline' => 26,
+  'errcontext' => 
+  array (
+    0 => 
+    array (
+      'file' => '/var/www/whmcs/modules/addons/ModuleFramework/core/Traits/AppParams.php',
+      'line' => 46,
+      'function' => 'initParams',
+      'class' => 'ModulesGarden\\ModuleFramework\\Core\\App\\Application',
+      'type' => '->',
+      'args' => 
+      array (
+      ),
+    ),
+    1 => 
+    array (
+      'file' => '/var/www/whmcs/modules/addons/ModuleFramework/core/App/Application.php',
+      'line' => 80,
+      'function' => 'getAppParam',
+      'class' => 'ModulesGarden\\ModuleFramework\\Core\\App\\Application',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 'systemName',
+      ),
+    ),
+    2 => 
+    array (
+      'file' => '/var/www/whmcs/modules/addons/ModuleFramework/core/App/Application.php',
+      'line' => 58,
+      'function' => 'getModuleName',
+      'class' => 'ModulesGarden\\ModuleFramework\\Core\\App\\Application',
+      'type' => '->',
+      'args' => 
+      array (
+      ),
+    ),
+    3 => 
+    array (
+      'file' => '/var/www/whmcs/modules/addons/ModuleFramework/core/App/Application.php',
+      'line' => 26,
+      'function' => 'getControllerClass',
+      'class' => 'ModulesGarden\\ModuleFramework\\Core\\App\\Application',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 'ModuleFramework_config',
+      ),
+    ),
+    4 => 
+    array (
+      'file' => '/var/www/whmcs/modules/addons/ModuleFramework/core/App/AppContext.php',
+      'line' => 34,
+      'function' => 'run',
+      'class' => 'ModulesGarden\\ModuleFramework\\Core\\App\\Application',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 'ModuleFramework_config',
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    5 => 
+    array (
+      'file' => '/var/www/whmcs/modules/addons/ModuleFramework/ModuleFramework.php',
+      'line' => 26,
+      'function' => 'runApp',
+      'class' => 'ModulesGarden\\ModuleFramework\\Core\\App\\AppContext',
+      'type' => '->',
+      'args' => 
+      array (
+        0 => 'ModuleFramework_config',
+      ),
+    ),
+    6 => 
+    array (
+      'file' => '/var/www/whmcs/admin/addonmodules.php',
+      'line' => 0,
+      'function' => 'ModuleFramework_config',
+      'args' => 
+      array (
+      ),
+    ),
+  ),
+)

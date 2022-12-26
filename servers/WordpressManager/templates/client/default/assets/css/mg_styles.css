@@ -1,0 +1,474 @@
+.mg-datapicker {
+    padding: 6px 12px 6px 12px !important;
+    display: flex !important;
+    position: relative !important;
+    margin: 0 !important;
+}
+
+.mg-datapicker:after {
+    background-color: #fff !important;
+}
+
+.md-input-action {
+    top: 6px !important;
+}
+
+.mg-copy-component-field {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    opacity: 0;
+}
+
+.mg-copy-component-span:hover {
+    cursor: pointer;
+}
+
+.mg-sidebar-wrapper {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+#layers .lu-app--navbar-left {
+    margin-left: -15px;
+    margin-right: -15px;
+    background-color: transparent;
+}
+
+#layers .lu-app-main .lu-app-main__body {
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+#layers .mg-ajax-menu-item {
+    padding-left: 0px;
+    justify-content: left;
+    align-items: left;
+}
+
+#layers .lu-app .lu-btn--default,
+#layers .lu-app .lu-btn--danger {
+    /*color: #737880;*/
+}
+
+#layers .lu-app .vue-app-main-modal-container .lu-btn--danger:not(.lu-btn--outline) {
+    color: #fff;
+}
+
+#layers .lu-app .lu-btn--default:hover {
+    color: #505459;
+}
+
+#layers body,
+#layers .lu-app {
+    background: transparent;
+}
+
+#layers .lu-list__item .lu-btn-password-show i {
+    width: 16px !important;
+    height: 16px !important;
+    min-width: 16px !important;
+    min-heigh: 16px !important;
+    width: 16px !important;
+    height: 16px !important;
+    font-size: 16px !important;
+    line-height: 16px !important;
+}
+
+#layers .lu-list__item .lu-btn-password-hide i {
+    min-width: 16px !important;
+    min-heigh: 16px !important;
+    width: 16px !important;
+    height: 16px !important;
+    font-size: 16px !important;
+    line-height: 16px !important;
+}
+
+#layers .lu-nav__item:not(.is-active) .lu-nav__link-text-bold {
+    color: #737880;
+}
+
+#layers .lu-nav__item .lu-nav__link-text-bold {
+    font-weight: 500;
+}
+
+#layers .lu-nav__item>.lu-btn {
+    margin: 0px 16px;
+}
+
+
+/* Fix label inside of datatable */
+
+#layers .vueDatatableTable .mgTableActions label {
+    display: block;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+
+/* Dropdawn Buttton Wrapper Styles */
+
+#layers .lu-has-dropdown .drop-content .lu-dropdown__item .lu-dropdown__link .lu-preloader {
+    margin-right: 16px;
+}
+
+#layers .lu-has-dropdown .drop-content .lu-dropdown__item .lu-dropdown__link .lu-preloader:before {
+    border-top-color: rgb(98, 202, 95);
+}
+
+#layers .lu-has-dropdown .drop-content .lu-dropdown__item a.lu-dropdown__link {
+    color: #505459;
+}
+
+#layers .lu-has-dropdown .drop-content .lu-dropdown__item a.lu-dropdown__link:hover {
+    color: rgb(98, 202, 95);
+}
+
+#layers .lu-has-dropdown .mg-drop-bg-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: 990;
+}
+
+*#layers .lu-has-dropdown .lu-drop-element {
+    z-index: 991;
+    transform: translateX(calc(36px - 100%)) translateY(5px);
+}
+
+
+/*End Of Dropdawn Buttton Wrapper Styles */
+
+
+/* RED loader for delete buttons */
+
+#layers .lu-btn--danger .lu-preloader:before {
+    border-top-color: rgb(244, 62, 62);
+}
+
+
+/* GREEN loader for submit buttons */
+
+#layers .lu-btn--success .lu-preloader:before {
+    border-top-color: rgb(98, 202, 95);
+}
+
+
+/* new navbar left styles */
+
+#layers .page-content .vue-app-main-container .lu-app .lu-app-main .lu-app-main__body {
+    padding-left: 0px;
+}
+
+#layers .page-content .vue-app-main-container .lu-app .lu-app-main .lu-app-main__body .mg-left-menu-content {
+    padding: 0px 0px 0px 0px;
+}
+
+#layers .page-content .vue-app-main-container .lu-app .lu-app-main .lu-app-main__body .lu-block .lu-row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/* end of new navbar left styles */
+
+
+/* selectize css fixes */
+
+#layers .selectize-control.multi .item {
+    display: inline-block;
+    position: relative;
+    padding: 0;
+    padding-left: 8px;
+    padding-right: 24px;
+    margin: 0 4px 4px 0;
+    background: #e9ebf0;
+    line-height: 24px;
+}
+
+#layers .selectize-control.multi .item a {
+    padding: 0;
+    color: #2368AD;
+    position: absolute;
+    width: 16px;
+    transition: color 0.3s;
+    text-align: center;
+    right: 0px;
+}
+
+#layers .selectize-control.multi.plugin-remove_button .item>a:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+#layers .selectize-control.multi .item.active {
+    color: #333;
+}
+
+#layers .selectize-control.multi .selectize-input {
+    padding-bottom: 0px;
+    padding-left: 15px;
+    display: block;
+}
+
+
+/* end of selectize css fixes */
+
+
+/* Modal Background */
+
+#layers .lu-modal.show {
+    background-color: rgba(80, 84, 89, 0.5);
+}
+
+
+/* End of Modal Background */
+
+
+/* Show Allerts on top of new modal background */
+
+#layers-body #toast-container,
+#layers #toast-container {
+    z-index: 1102;
+}
+
+
+/* End of Show Allerts on top of new modal background */
+
+
+/* force break lines on lu-list--info */
+
+#layers .lu-list--info .lu-list__value {
+    word-break: break-all;
+}
+
+
+/* end of force break lines */
+
+.mg-toast {
+    opacity: 1 !important;
+    border: none !important;
+}
+
+
+/* action buttons */
+
+#layers .actions-buttons .lu-btn {
+    padding: 0 15px 0 15px!important;
+}
+
+#layers .actions-buttons .lu-btn--link {
+    width: auto!important;
+}
+
+/*#layers .actions-buttons .lu-btn--link:first-child {
+    padding-left: 0!important;
+}*/
+
+#layers .actions-buttons .lu-btn--link i {
+    width: 24px!important;
+    height: 24px!important;
+}
+
+#layers .img-center {
+    display: flex;
+    justify-content: center;
+}
+
+#layers .topNav {
+    padding: 0;
+}
+
+#mg-wp-installation-details-top-nav .lu-dropdown__link .lu-preloader{
+    margin-right: 16px;
+}
+
+#layers  .lu-list__item .lu-btn__icon{
+    min-width: 18px;
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+}
+
+#layers .lu-list--info .lu-list__item {
+    height: 30px;
+}
+
+#layers .lu-list--info .lu-list__item .lu-btn{
+    height: auto!important;
+}
+#mg-wp-installation-detailsC  .lu-top__title{
+    display: block;
+    line-height: 5rem;
+}
+#mg-wp-installation-detailsC  .lu-top__title .expand {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: right;
+   transition: all 0.5s;
+   cursor: pointer;
+}
+#mg-wp-installation-detailsC .lu-top__title .expand.active {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.textwithoutwrap{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#mg-wp-installation-detailsC .lu-badge{
+border-radius: 3px;
+}
+#mg-wp-installation-detailsC  .lu-badge--xlg{
+padding: 0 10px;
+}
+
+.mt-110{
+    margin-top: 110px;
+}
+.mt-120{
+    margin-top: 120px;
+}
+
+#mg-wp-installation-details{
+    margin-top: 40px;
+}
+
+
+#mg-wp-installation-detailsC .lu-widget__top{
+    height: auto;
+}
+.lu-widget.installation-details .lu-badge.lu-badge--xlg{
+    height: 36px !important;
+    vertical-align: top;
+}
+
+.installation-details input[type="radio"]{
+    vertical-align: middle;
+}
+.sai_main_head_hr {
+    border-bottom: 2px solid #4099FF !important;
+    display: block;
+    width: 80px;
+    margin: 0px 0px 30px 0px ;
+    margin-top: 0px !important;
+}
+#installationCreateForm .sai_main_head_hr{
+    margin-left: 16px !important;
+}
+#installationCreateForm .lu-form-label {
+    font-size: 14px;
+}
+#installationCreateForm .sai_exp2,#installationImportForm .sai_exp2{
+    font-size: 12px;
+    color: #7f8489;
+}
+#layers .lu-form-label, #layers .lu-form-feedback{
+    color: #333333;
+}
+.quick_install_form_toggle_btn{
+    top: 0;
+    right: 10px;
+    position: absolute !important;
+}
+
+.manageSetsBtn{
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+}
+
+.collapsablesection{
+    cursor: pointer;
+}
+
+#installationCreateForm .lu-widget__header {
+border: none;
+}
+#advoptions_toggle_plus{
+    margin-right: 10px;
+}
+
+.lu-align-middle{
+    vertical-align: middle !important;
+}
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+    div.product-details-tab-container{
+        padding: 0px !important;
+    }
+    .installation-details .actions-buttons .lu-btn{
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+}
+#server_host_help{
+    opacity: 0;
+}
+#installationImportForm [name="ftp_pass"]{
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 767px)
+.old_tab {
+    display: none;
+}
+@media screen and (min-width: 768px)
+.new_tab {
+    display: none;
+}
+.mgTableActions [disabled="disabled"]{
+    display: none !important;
+}
+.text-primary{
+    color: var(--brand-primary) !important;
+}
+.text-success{
+    color: var(--brand-success) !important;
+}
+
+.dz-preview, .dz-image{
+            min-height:50px !important;
+            height:50px !important;
+            padding: 0px !important;
+        }
+        .dz-details{
+            padding: 0px !important;
+        }
+
+        .dropzone{
+            border: 2px dashed rgba(0,0,0,0.3) !important;
+        }
+
+.lu-mob-top-search{
+    background: var(--primary-block-bg-h);
+}
+#layers .lu-top{
+    box-shadow: var(--ui-block-shadow);
+    padding: 15px 20px 32px 15px;
+}
+#layers .vueDatatableTable .lu-top,#layers .lu-modal__content .lu-top {
+    box-shadow: none !important;
+    padding: 16px;
+}
+#pluginsBox .lu-widget__body{
+max-height: 300px;
+overflow: auto;
+}
+.pluginsearchcontainer{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+}

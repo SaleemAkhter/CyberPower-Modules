@@ -1,0 +1,59 @@
+.redAlert {
+    color:#F55656!important;
+}
+
+.vertical-align-middle{
+    vertical-align: middle!important;
+}
+
+.installation-details .wd-image {
+    color:white;
+    height: 100%;
+    width: 100%;
+    min-height: 180px;
+    background-color:gray;
+    display: flex;
+    align-items:center;
+    justify-content:center;"
+}
+
+.installation-details {
+
+}
+
+.installation-details .installation-details-info{
+    display: flex!important;
+    flex-direction: column;
+}
+
+.installation-details .actions-buttons{
+    margin-top: auto;
+}
+
+
+.installation-details .actions-buttons a:first-child{
+    margin-left: -10px;
+}
+
+#layers .installation-details .actions-buttons .lu-btn{
+    padding: 0 10px 0 10px!important;
+}
+
+@media(max-width: 1185px){
+    #layers .installation-details .actions-buttons a:first-child{
+        margin-left: -4px;
+    }
+    #layers .installation-details .actions-buttons .lu-btn{
+        padding: 0 4px 0 4px!important;
+    }
+}
+
+@media(max-width: 992px){
+    #layers .installation-details .actions-buttons a:first-child{
+        margin-left: -10px;
+    }
+    #layers .installation-details .actions-buttons .lu-btn{
+        padding: 0 8px 0 8px!important;
+    }
+}
+

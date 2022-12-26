@@ -1,0 +1,16 @@
+managementVultrVps:
+  backup:
+    order: 702
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=backup'
+  firewall:
+    order: 707
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=firewall'
+  bandwidth:
+    order: 708
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=bandwidth'
+  changeOs:
+    order: 709
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=changeOs'
+  snapshot:
+    order: 710
+    uri: 'clientarea.php?action=productdetails&id={$hostingId}&modop=custom&a=management&mg-page=snapshot'

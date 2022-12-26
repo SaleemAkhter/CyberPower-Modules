@@ -1,0 +1,45 @@
+#layers .table--mob-collapsible td{
+    word-break: break-all;
+}
+#layers .tabsWidget{
+    margin-left:  7px;
+    margin-right: 7px;
+}
+
+#layers #unbanPage{
+    margin-left:  8px;
+    margin-right: 8px;
+}
+
+#layers #fileManagerPage .t-c__mass-actions .top__toolbar button {
+    padding: 0;
+}
+
+body {
+    height: auto;
+}
+
+button[namespace="ModulesGarden_Servers_DigitalOceanDroplets_App_UI_Firewall_Buttons_MassDeleteRule"]
+{
+    width: auto !important;
+    padding: 0 5px !important;
+}
+
+button[namespace="ModulesGarden_Servers_DigitalOceanDroplets_App_UI_Snapshots_Buttons_MassAction_DeleteSnapshots"]
+{
+    width: auto !important;
+    padding: 0 5px !important;
+}
+
+button[namespace="ModulesGarden_Servers_DigitalOceanDroplets_App_UI_Firewall_Buttons_MassDeleteRule"] span
+{
+    padding: 0 6px !important;
+}
+#additionalinfo .row .text-left{
+    word-wrap: break-word;
+}
+
+.mg-toast {
+    opacity: 1 !important;
+    border: none !important;
+}

@@ -1,0 +1,91 @@
+function product_setting(){
+	 alert('aaa');
+	var productdata = jQuery("#form-product").serialize();
+	jQuery( "#success").hide( );
+	jQuery("#response_data").html('');
+      jQuery.ajax({
+		url:'',
+		type: 'post',
+		data:"customAction=insertproduct&getproduct"+productdata,	  
+		success: function(data) { 
+
+		 	console.log(data);
+		 	var decode = JSON.parse(data);
+		 	if(decode == "exist"){
+		 		jQuery("#response_data").html('<div class="alert text-danger">Product Already Exist <strong>Please! </strong>Enter new product.</div>');
+		 	}else{
+		 		jQuery("#response_data").html('<div class="alert text-success ">Product added Successfully!  .</div>');
+		 	}
+
+			/*setTimeout(
+			  function() 
+			  {
+			     window.location.replace("addonmodules.php?module=clodflare_reseller&action=product");
+			  }, 4000);*/
+			 
+		}
+
+	});
+
+        
+}
+
+
+function getproduct(pid){
+    var productId = pid;
+    jQuery('#productupdate-modal').modal('show');
+    jQuery("input[name='memberupdt']").prop('checked', false);
+			 
+    jQuery.ajax({
+		url:'',
+		type: 'POST',
+		data:"customAction=productInfo&id="+productId,
+		success: function(data) {  
+			console.log(data);
+			var decode = JSON.parse(data);
+			
+			// alert(decode.id);
+			 var id = decode.id;
+			 var productId = decode.product_id;
+			 var plan = decode.plan;
+			 var member = decode.member;
+			 var mtype = decode.member_type;
+			 var ztype = decode.zone_type;
+			
+			jQuery('#getid').val(id);
+			 if(member == '1'){
+			 	jQuery("input[name='memberupdt']").prop('checked', true);
+			 }
+
+			 jQuery('#productid').val(productId);
+			 jQuery( "#planId").val(plan);
+			 jQuery( "#mId").val(mtype);
+			 jQuery( "#zId").val(ztype);
+			 jQuery( "#success").hide( );
+
+ 
+		}	     
+
+	});  
+     
+}
+
+
+function product_update(){
+    
+    var productupdate = jQuery("#form-update-product").serialize();
+      jQuery.ajax({
+		url:'',
+		type: 'post',
+		data:"customAction=updateproduct&getproduct"+productupdate,	  
+		success: function(data) {  
+		 	jQuery("#response_data").html('<div class="alert alert-success text-center">Product  Successfully Updated!</strong> .</div>');
+			 
+			setTimeout(
+			  function() 
+			  {
+			     window.location.replace("addonmodules.php?module=clodflare_reseller&action=product");
+			  }, 4000);
+					}
+	}); 
+}

@@ -1,0 +1,94 @@
+<?php
+
+namespace ModulesGarden\Servers\DirectAdminExtended\Core\Http\View;
+
+use ModulesGarden\Servers\DirectAdminExtended\Core\FileReader\Reader;
+use ModulesGarden\Servers\DirectAdminExtended\Core\Helper\BuildUrl;
+use ModulesGarden\Servers\DirectAdminExtended\Core\ModuleConstants;
+use ModulesGarden\Servers\DirectAdminExtended\Core\Helper;
+
+/**
+ * Description of MainMenu
+ *
+ * @author Rafał Ossowski <rafal.os@modulesgarden.com>
+ */
+class MainMenu
+{
+    /**
+     * @var array
+     */
+    protected $menuContect = [];
+
+    /**
+     * @var array
+     */
+    protected $menu = [];
+
+    /**
+     * @var Breadcrumb
+     */
+    protected $breadcrumbModel;
+
+    /**
+     * @var array
+     */
+    protected $breadcrumb = [];
+
+    public function __construct(Breadcrumb $breadcrumb)
+    {
+
+        $this->breadcrumbModel = $breadcrumb;
+
+        $this->loadMenuContect();
+        $this->buildMenu();
+    }
+
+    private function loadMenuContect()
+    {
+        $isAdmin           = Helper\isAdmin();
+        $file              = ($isAdmin) ? 'admin.yml' : 'client.yml';
+        $this->menuContect = Reader::read(ModuleConstants::getDevConfigDir() . DS . 'menu' . DS . $file)->get();
+    }
+
+    private function buildMenu()
+    {
+        
+        foreach ($this->menuContect as $catName => $category)
+        {
+            if (isset($category['submenu']))
+            {
+                foreach ($category['submenu'] as $subName => &$subPage)
+                {
+                    if (empty($subPage['url']))
+                    {
+                        $subPage['url'] = isset($subPage['externalUrl']) ? isset($subPage['externalUrl']) 
+                                : BuildUrl::getUrl($catName, $subName);
+                    }
+                }
+            }
+
+            $category['url'] = isset($category['externalUrl']) ? isset($category['externalUrl']) 
+                    : BuildUrl::getUrl($catName);
+
+            $this->menu[$catName] = $category;
+        }
+    }
+
+    public function buildBreadcrumb($controller = null, $action = null, array $arrayBreadcrumb = [])
+    {
+        $this->breadcrumb = $this->breadcrumbModel
+                ->load($this->getMenu(), $controller, $action, $arrayBreadcrumb)
+                ->get();
+        return $this;
+    }
+
+    public function getMenu()
+    {
+        return $this->menu;
+    }
+
+    public function getBreadcrumb()
+    {
+        return $this->breadcrumb;
+    }
+}

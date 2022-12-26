@@ -1,0 +1,7 @@
+dashboard:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-home'
+features:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-settings'
+documentation:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-file-text'
+    externalUrl: "https://www.docs.modulesgarden.com/DirectAdmin_Extended_For_WHMCS"

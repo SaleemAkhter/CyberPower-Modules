@@ -1,0 +1,28 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-provisioning",
+  "name": "OvhVpsAndDedicated",
+  "license": "proprietary",
+  "category": "provisioning",
+  "description": {
+    "name": "OVH VPS & Dedicated Server",
+    "tagline": "Provide VPS & dedicated servers offered by OVH, and empower clients to control machines, access the KVM and IPMI console, and more.",
+    "short": "Provide VPS & dedicated servers offered by OVH, and empower clients to control machines, access the KVM and IPMI console, and more.",
+    "long": "OVH VPS & Dedicated Servers For WHMCS is a dual-purpose module empowering you to automate the provisioning of both VPS & dedicated servers brought by OVH, including those of So you Start, and Kimsufi brands. It has been designed to let your clients order machines finely tailored through configurable options, and control their essential properties without stepping outside your WHMCS.\nWhatever the server type your customers will decide on, the power switch, reboot, shutdown, and other typical operations can be performed at any time in your client area. The same applies to tracing server details, entering the KVM and IPMI console, as well as managing reverse DNS settings. The owners of virtual machines will additionally be able to manage snapshots, whereas those who went for dedicated servers will gain easy access to traffic statistics. Furthermore, you will be allowed to select the existing machines that can be later on reused by another client, in case the previous one opts out."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https://www.modulesgarden.com/products/whmcs/ovh-vps-and-dedicated-servers",
+    "learn_more": "https://www.modulesgarden.com/products/whmcs/ovh-vps-and-dedicated-servers#features",
+    "support_url": "https://www.modulesgarden.com/support",
+    "docs_url": "https://www.docs.modulesgarden.com/OVH_VPS_And_Dedicated_Servers_For_WHMCS"
+  },
+  "authors": [
+    {
+      "name": "ModulesGarden",
+      "homepage": "https://www.modulesgarden.com/"
+    }
+  ]
+}

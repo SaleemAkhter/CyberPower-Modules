@@ -1,0 +1,9 @@
+class:
+  - {old: 'ModulesGarden\\Servers\\VultrVps\\Core\\Configuration\\Addon\\Config\\After',     new: 'ModulesGarden\\Servers\\VultrVps\\App\\Configuration\\Addon\\Config\\After'}
+  - {old: 'ModulesGarden\\Servers\\VultrVps\\Core\\Configuration\\Addon\\Activate\\After',   new: 'ModulesGarden\\Servers\\VultrVps\\App\\Configuration\\Addon\\Activate\\After'}
+  - {old: 'ModulesGarden\\Servers\\VultrVps\\Core\\Configuration\\Addon\\Deactivate\\After', new: 'ModulesGarden\\Servers\\VultrVps\\App\\Configuration\\Addon\\Deactivate\\After'}
+  - {old: 'ModulesGarden\\Servers\\VultrVps\\Core\\Configuration\\Addon\\Update\\After',     new: 'ModulesGarden\\Servers\\VultrVps\\App\\Configuration\\Addon\\Update\\After'}
+  - {old: 'ModulesGarden\\Servers\\VultrVps\\Core\\Configuration\\Addon\\Config\\Before',    new: 'ModulesGarden\\Servers\\VultrVps\\App\\Configuration\\Addon\\Config\\Before'}
+  - {old: 'ModulesGarden\\Servers\\VultrVps\\Core\\Configuration\\Addon\\Activate\\Before',  new: 'ModulesGarden\\Servers\\VultrVps\\App\\Configuration\\Addon\\Activate\\Before'}
+  - {old: 'ModulesGarden\\Servers\\VultrVps\\Core\\Configuration\\Addon\\Deactivate\\Before',new: 'ModulesGarden\\Servers\\VultrVps\\App\\Configuration\\Addon\\Deactivate\\Before'}
+  - {old: 'ModulesGarden\\Servers\\VultrVps\\Core\\Configuration\\Addon\\Update\\Before',    new: 'ModulesGarden\\Servers\\VultrVps\\App\\Configuration\\Addon\\Update\\Before'}

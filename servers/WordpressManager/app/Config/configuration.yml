@@ -1,0 +1,8 @@
+debug: false
+version: '1.7.0'
+systemName: 'WordpressManager'
+name: 'WordPress Manager'
+description: 'WordPress Manager is a  module that allows your clients to install and manage multiple WordPress instances right in your WHMCS. Your customers will be able to remotely handle WordPress updates, create backups, choose plugins to be installed and more.<br>For more info visit our <a href="http://www.docs.modulesgarden.com/WordPress_Manager_For_WHMCS" style="color: #4169E1;" target="_blank">Wiki</a>.'
+clientareaName: 'WordPress Manager'
+author: '<a href="http://www.modulesgarden.com" targer="_blank">ModulesGarden</a>'
+moduleIcon: 'wordpress_manager'

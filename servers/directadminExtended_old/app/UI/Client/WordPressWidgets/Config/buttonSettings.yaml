@@ -1,0 +1,24 @@
+details:
+  action: details
+  name: Details
+  icon: lu-zmdi lu-zmdi-info
+management-backups:
+  action: backups
+  name: Backups
+  icon: lu-zmdi lu-zmdi-storage
+management-themes:
+  action: themes
+  name: Themes
+  icon: lu-zmdi lu-zmdi-view-web
+management-plugins:
+  action: plugins
+  name: Plugins
+  icon: lu-zmdi lu-zmdi-widgets
+management-plugin-packages:
+  action: pluginPackages
+  name: Plugin Packages
+  icon: lu-zmdi lu-zmdi-grid
+management-config:
+  action: configData
+  name: Configuration
+  icon: lu-zmdi lu-zmdi-edit

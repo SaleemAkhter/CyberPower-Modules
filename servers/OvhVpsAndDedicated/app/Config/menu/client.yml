@@ -1,0 +1,19 @@
+mg-provisioning-module:
+    icon: 'fa-cog'
+    order: 25
+    children:
+        snapshots:
+            order: 1
+            validate: 'vpsClientAreaSnapshots'
+        disks:
+            order: 2
+            validate: 'vpsClientAreaDisks'
+        ips:
+            order: 3
+            validate: 'vpsClientAreaIps'
+        ipsDedicated:
+            order: 3
+            validate: 'dedicatedClientAreaIps'
+        graphs:
+            order: 4
+            validate: 'dedicatedClientAreaGraphs'

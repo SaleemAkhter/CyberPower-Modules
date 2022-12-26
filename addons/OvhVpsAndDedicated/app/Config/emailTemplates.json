@@ -1,0 +1,39 @@
+{
+    "emails": [
+        {
+            "type": "product",
+            "custom": 1,
+            "name": "OVH VPS Has Been Created",
+            "subject": "OVH VPS machine has been created",
+            "message": "<p>Your new VPS Machine is all set to go! You can access it using the following credentials:</p><p>Vps Machine Name: {$service_name} <br /> User Name: {$username} <br /> Password: {$password}</p>"
+        },
+        {
+            "type": "product",
+            "custom": 1,
+            "name": "OVH VPS Rescue Reboot",
+            "subject": "OVH VPS rebooted in rescue mode",
+            "message": "<p>Your VPS Machine has been rebooted to rescue mode. You can access it using the following credentials:</p><p>Vps Machine Name: {$service_name} <br /> User Name: {$username} <br /> Password: {$password}</p>"
+        },
+        {
+            "type": "product",
+            "custom": 1,
+            "name": "OVH VPS Reinstalled",
+            "subject": "OVH VPS machine has been reinstalled",
+            "message": "<p>Your VPS Machine has been reinstalled successfully! You can access it using the following credentials:</p><p>Vps Machine Name: {$service_name} <br /> User Name: {$username} <br /> Password: {$password}</p>"
+        },
+        {
+            "type": "product",
+            "custom": 1,
+            "name": "OVH Dedicated Reinstalled",
+            "subject": "OVH Dedicated Server has been reinstalled",
+            "message": "<p>Your Dedicated Server has been reinstalled</p><p>Dedicated Server Name: {$service_name} <br />User Name: {$username}<br /> Password: {$password}</p>"
+        },
+        {
+            "type": "product",
+            "custom": 1,
+            "name": "OVH Dedicated Server Rescue Reboot",
+            "subject": "OvVH Dedicated Server rebooted in rescue mode",
+            "message": "<p>Your Dedicated Server has been rebooted to {$rebootMode} mode</p><p>Dedicated Server Name: {$service_name} <br />User Name: {$username}<br /> Password: {$password}</p>"
+        }
+    ]
+}

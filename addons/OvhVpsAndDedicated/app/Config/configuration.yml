@@ -1,0 +1,7 @@
+version: '1.0.0'
+systemName: 'OvhVpsAndDedicated'
+name: 'OVH VPS & Dedicated Servers'
+description: 'Use this addon tool to maintain your VPS & dedicated servers provided by OVH  as well as those supplied by Kimsufi and So you Start brands directly in your WHMCS, allow your clients full control over their accounts.<br>For more info visit our <a href="https://www.docs.modulesgarden.com/OVH_VPS_And_Dedicated_Servers_For_WHMCS" style="color: #4169E1;" target="_blank">Wiki</a>.'
+clientareaName: 'MG Demo'
+author: '<a href="http://www.modulesgarden.com" target="_blank">ModulesGarden</a>'
+moduleIcon: 'ovh_vps_dedicated'

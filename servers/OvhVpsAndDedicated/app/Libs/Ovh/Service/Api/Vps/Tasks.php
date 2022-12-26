@@ -1,0 +1,32 @@
+<?php
+
+namespace ModulesGarden\Servers\OvhVpsAndDedicated\App\Libs\Ovh\Service\Api\Vps;
+
+use ModulesGarden\Servers\OvhVpsAndDedicated\App\Libs\Ovh\Service\Abstracts\AbstractApi;
+use ModulesGarden\Servers\OvhVpsAndDedicated\App\Libs\Ovh\Service\Api\Items\Vps\Task;
+use ModulesGarden\Servers\OvhVpsAndDedicated\App\Helpers\Basics\Collection;
+
+/**
+ * Class Tasks
+ *
+ * @author Artur Pilch <artur.pi@modulesgarden.com>
+ */
+class Tasks extends AbstractApi
+{
+    public function all()
+    {
+        $response = $this->get();
+        $collection = new Collection();
+        foreach ($response as $item)
+        {
+            $collection->add($this->one($item));
+        }
+        return $collection->all();
+    }
+
+    public function one($id)
+    {
+        $response = $this->get($id);
+        return new Task($this->api, $this->client, $this->getPathExpanded($id), $response);
+    }
+}

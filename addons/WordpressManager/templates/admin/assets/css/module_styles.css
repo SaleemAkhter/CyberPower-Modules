@@ -1,0 +1,29 @@
+
+
+#layers .lu-nav__summary {
+  display: -webkit-box;
+  display: flex;
+  flex-shrink: 0;
+  -webkit-box-align: center;
+  align-items: center;
+  min-height: inherit;
+  padding: 6px 16px;
+  color: #505459;
+  transition: color 0.3s;
+}
+
+
+#layers .lu-nav__summary-icon {
+  color: #737880;
+  transition: color 0.3s;
+  text-align: center;
+  margin-right: 16px;
+}
+
+#layers .lu-nav__summary-icon:last-child {
+  margin-right: 0;
+}
+
+#layers .lu-nav__summary > .lu-badge {
+  margin-left: auto;
+}

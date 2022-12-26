@@ -1,0 +1,7 @@
+version: '1.2.0'
+systemName: 'CloudBilling'
+name: 'Cloud Billing'
+description: 'Cloud Billing module offers a powerful billing model management of Google Cloud and Amazon Web Services. You will be able to gather all these services in one place as well as generate detailed reports on billing management, earnings, resource usage per service and much more.<br>For more info visit our <a target="_blank" style="color: #4169E1;" href="https://www.docs.modulesgarden.com/Cloud_Billing_For_WHMCS">Wiki</a>.'
+clientareaName: 'MG Demo'
+author: '<a href="http://www.modulesgarden.com" target="_blank">ModulesGarden</a>'
+moduleIcon: 'cloud-billing'

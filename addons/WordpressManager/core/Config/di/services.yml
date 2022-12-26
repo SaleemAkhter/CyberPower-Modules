@@ -1,0 +1,3 @@
+- \ModulesGarden\WordpressManager\Core\Lang\Lang
+- \ModulesGarden\WordpressManager\Core\App\Controllers\Instances\Addon\Config
+- \ModulesGarden\WordpressManager\Core\UI\Widget\Sidebar\SidebarService

@@ -1,0 +1,9 @@
+class:
+    - {old: 'ModulesGarden\\OvhVpsAndDedicated\\Core\\Configuration\\Addon\\Config\\After',     new: 'ModulesGarden\\OvhVpsAndDedicated\\App\\Configuration\\Addon\\Config\\After'}
+    - {old: 'ModulesGarden\\OvhVpsAndDedicated\\Core\\Configuration\\Addon\\Activate\\After',   new: 'ModulesGarden\\OvhVpsAndDedicated\\App\\Configuration\\Addon\\Activate\\After'}
+    - {old: 'ModulesGarden\\OvhVpsAndDedicated\\Core\\Configuration\\Addon\\Deactivate\\After', new: 'ModulesGarden\\OvhVpsAndDedicated\\App\\Configuration\\Addon\\Deactivate\\After'}
+    - {old: 'ModulesGarden\\OvhVpsAndDedicated\\Core\\Configuration\\Addon\\Update\\After',     new: 'ModulesGarden\\OvhVpsAndDedicated\\App\\Configuration\\Addon\\Update\\After'}
+    - {old: 'ModulesGarden\\OvhVpsAndDedicated\\Core\\Configuration\\Addon\\Config\\Before',    new: 'ModulesGarden\\OvhVpsAndDedicated\\App\\Configuration\\Addon\\Config\\Before'}
+    - {old: 'ModulesGarden\\OvhVpsAndDedicated\\Core\\Configuration\\Addon\\Activate\\Before',  new: 'ModulesGarden\\OvhVpsAndDedicated\\App\\Configuration\\Addon\\Activate\\Before'}
+    - {old: 'ModulesGarden\\OvhVpsAndDedicated\\Core\\Configuration\\Addon\\Deactivate\\Before',new: 'ModulesGarden\\OvhVpsAndDedicated\\App\\Configuration\\Addon\\Deactivate\\Before'}
+    - {old: 'ModulesGarden\\OvhVpsAndDedicated\\Core\\Configuration\\Addon\\Update\\Before',    new: 'ModulesGarden\\OvhVpsAndDedicated\\App\\Configuration\\Addon\\Update\\Before'}

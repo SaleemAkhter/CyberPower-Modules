@@ -1,0 +1,7 @@
+{
+   "database":{
+      "tables":[
+         "CloudBilling_*"
+      ]
+   }
+}

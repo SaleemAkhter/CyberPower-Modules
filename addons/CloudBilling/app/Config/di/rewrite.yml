@@ -1,0 +1,9 @@
+class:
+    - {old: 'ModulesGarden\\CloudBilling\\Core\\Configuration\\Addon\\Config\\After',     new: 'ModulesGarden\\CloudBilling\\App\\Configuration\\Addon\\Config\\After'}
+    - {old: 'ModulesGarden\\CloudBilling\\Core\\Configuration\\Addon\\Activate\\After',   new: 'ModulesGarden\\CloudBilling\\App\\Configuration\\Addon\\Activate\\After'}
+    - {old: 'ModulesGarden\\CloudBilling\\Core\\Configuration\\Addon\\Deactivate\\After', new: 'ModulesGarden\\CloudBilling\\App\\Configuration\\Addon\\Deactivate\\After'}
+    - {old: 'ModulesGarden\\CloudBilling\\Core\\Configuration\\Addon\\Update\\After',     new: 'ModulesGarden\\CloudBilling\\App\\Configuration\\Addon\\Update\\After'}
+    - {old: 'ModulesGarden\\CloudBilling\\Core\\Configuration\\Addon\\Config\\Before',    new: 'ModulesGarden\\CloudBilling\\App\\Configuration\\Addon\\Config\\Before'}
+    - {old: 'ModulesGarden\\CloudBilling\\Core\\Configuration\\Addon\\Activate\\Before',  new: 'ModulesGarden\\CloudBilling\\App\\Configuration\\Addon\\Activate\\Before'}
+    - {old: 'ModulesGarden\\CloudBilling\\Core\\Configuration\\Addon\\Deactivate\\Before',new: 'ModulesGarden\\CloudBilling\\App\\Configuration\\Addon\\Deactivate\\Before'}
+    - {old: 'ModulesGarden\\CloudBilling\\Core\\Configuration\\Addon\\Update\\Before',    new: 'ModulesGarden\\CloudBilling\\App\\Configuration\\Addon\\Update\\Before'}

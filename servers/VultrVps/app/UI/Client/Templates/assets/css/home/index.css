@@ -1,0 +1,17 @@
+
+#additionalinfo > .row > .text-left {
+    word-wrap: break-word;
+}
+
+
+.password_element input{
+    border: 0px solid;
+    width: 30%;
+
+}
+.password_element input:focus {
+    background-color: white;
+    border: 0px solid;
+    outline: none;
+
+}

@@ -1,0 +1,24 @@
+Service Details Overview:       
+Service Details Actions: []
+mg-provisioning-module:
+    icon: 'fa-cog'
+    order: 25
+    children:
+        rebuild:
+            order: 1
+            validate: 'clientAreaRebuild'
+        snapshots:
+            order: 2
+            validate: 'clientAreaSnapshots'
+        backups:
+            order: 3
+            validate: 'checkBackups,clientAreaBackups'
+        kernel:
+            order: 4
+            validate: 'clientAreaKernel'
+        firewall:
+            order: 5
+            validate: 'clientAreaFirewall'
+        task:
+            order: 6
+            validate: 'clientAreaTask'
